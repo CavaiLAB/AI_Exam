@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>机器视觉刷题学习</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+body { margin:0; font-family: Arial, sans-serif; }
+.container { display: flex; }
+.main { flex: 1; padding: 20px; }
+.tabs { margin-bottom: 20px; }
+.tab-btn { padding: 8px 16px; border: 1px solid #ccc; border-bottom:none; cursor:pointer; margin-right:5px; display:inline-block; }
+.tab-btn.active { background-color:#3498db; color:white; }
+.question-item { border:1px solid #ccc; padding:15px; margin-bottom:15px; background:#fff; }
+.nav { width:120px; padding:20px; position:sticky; top:0; background:#eee; height:100vh; box-sizing:border-box; }
+.nav-item { width:30px; height:30px; line-height:30px; text-align:center; margin:3px; display:inline-block; background:#ccc; color:#000; cursor:pointer; }
+.nav-item.answered { background:#3498db; color:#fff; }
+.nav-item.wrong { background:#e74c3c; color:#fff; }
+#submit-btn { width:100%; padding:8px; margin-top:10px; cursor:pointer; background:#2ecc71; color:white; border:none; }
+#score-box { margin-top:15px; text-align:center; font-weight:bold; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="main">
+    <div class="tabs">
+      <span class="tab-btn active">单选</span>
+      <span class="tab-btn">多选</span>
+      <span class="tab-btn">判断</span>
+    </div>
+    <div id="question-container"></div>
+  </div>
+
+  <div class="nav">
+    <div id="nav-box"></div>
+    <button id="submit-btn">提交</button>
+    <div id="score-box"></div>
+  </div>
+</div>
+
+<script>
+const questions = {
+  "single_choice": [
+    {
+      "id": 1,
+      "type": "single_choice",
+      "question": "以下哪项不是机器视觉系统的基本组成部分?",
+      "options": [
+        "A、光源",
+        "B、相机",
+        "C、显示器",
+        "D、图像采集卡"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 2,
+      "type": "single_choice",
+      "question": "在机器视觉中，边缘检测是一种:()",
+      "options": [
+        "A、颜色识别技术",
+        "B、形状识别技术",
+        "C、距离测量技术",
+        "D、纹理分析技术"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "type": "single_choice",
+      "question": "机器视觉中，用于提高图像对比度的设备是:()",
+      "options": [
+        "A、滤光片",
+        "B、偏振片",
+        "C、增益控制器",
+        "D、光源"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 4,
+      "type": "single_choice",
+      "question": "以下哪种算法常用于机器视觉中的模式识别?()",
+      "options": [
+        "A、傅里叶变换",
+        "B、快速傅里叶变换",
+        "C、霍夫变换",
+        "D、拉普拉斯变换"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 5,
+      "type": "single_choice",
+      "question": "机器视觉中，用于测量物体尺寸的常用方法是:()",
+      "options": [
+        "A、颜色分析",
+        "B、形状分析",
+        "C、边缘检测",
+        "D、灰度分析"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 6,
+      "type": "single_choice",
+      "question": "机器视觉系统中，用于消除环境光干扰的设备是:()",
+      "options": [
+        "A、相机",
+        "B、光源",
+        "C、滤光片",
+        "D、显示器"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 7,
+      "type": "single_choice",
+      "question": " 在机器视觉中，用于识别二维码的算法是:",
+      "options": [
+        "A、模板匹配",
+        "B、特征匹配",
+        "C、二维码解码",
+        "D、边缘跟踪"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 8,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体表面缺陷的方法是:()",
+      "options": [
+        "A、颜色识别",
+        "B、形状识别",
+        "C、表面检测",
+        "D、距离测量"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 9,
+      "type": "single_choice",
+      "question": "机器视觉中，用于测量物体位置的常用方法是:()",
+      "options": [
+        "A、颜色分析",
+        "B、形状分析",
+        "C、边缘检测",
+        "D、特征匹配"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 10,
+      "type": "single_choice",
+      "question": "机器视觉系统中，用于采集图像的设备通常是()",
+      "options": [
+        "A、传感器",
+        "B、相机",
+        "C、镜头",
+        "D、光源"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 11,
+      "type": "single_choice",
+      "question": "机器视觉中，图像分辨率的单位通常是()",
+      "options": [
+        "A、dpi",
+        "B、ppi",
+        "C、lpi",
+        "D、mpi"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 12,
+      "type": "single_choice",
+      "question": "机器视觉中，用于提取图像特征的算法属于()",
+      "options": [
+        "A、图像增强",
+        "B、图像分割",
+        "C、图像识别",
+        "D、图像压缩"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 13,
+      "type": "single_choice",
+      "question": "以下哪种图像滤波算法可以有效去除椒盐噪声?",
+      "options": [
+        "A、中值滤波",
+        "B、均值滤波",
+        "C、高斯滤波",
+        "D、拉普拉斯滤波"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 14,
+      "type": "single_choice",
+      "question": "在机器视觉中，边缘检测常用的算法是()",
+      "options": [
+        "A、Sobel算子",
+        "B、Laplacian算子",
+        "C、Canny算子",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 15,
+      "type": "single_choice",
+      "question": "机器视觉系统的精度主要取决于 ()",
+      "options": [
+        "A、相机分辨率",
+        "B、镜头精度",
+        "C、图像处理算法",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 16,
+      "type": "single_choice",
+      "question": "以下哪种颜色空间在机器视觉中常用于颜色检测?",
+      "options": [
+        "A、RGB",
+        "B、HSV",
+        "C、YUV",
+        "D、CMYK"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 17,
+      "type": "single_choice",
+      "question": "图像二值化处理中，常用的阈值选取方法是()",
+      "options": [
+        "A、固定阈值",
+        "B、自适应阈值",
+        "C、手动阈值",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 18,
+      "type": "single_choice",
+      "question": "以下哪种镜头畸变小，适用于高精度测量?",
+      "options": [
+        "A、广角镜头",
+        "B、长焦镜头",
+        "C、标准镜头",
+        "D、鱼眼镜头"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 19,
+      "type": "single_choice",
+      "question": "机器视觉系统中，图像预处理的目的是()",
+      "options": [
+        "A、提高图像质量",
+        "B、减少计算量",
+        "C、便于后续处理",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 20,
+      "type": "single_choice",
+      "question": "以下哪种图像格式常用于机器视觉系统?",
+      "options": [
+        "A、JPEG",
+        "B、BMP",
+        "C、PNG",
+        "D、TIFF"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 21,
+      "type": "single_choice",
+      "question": "机器视觉检测中，若要检测物体的位置和方向，通常使用()",
+      "options": [
+        "A、形状匹配",
+        "B、纹理分析",
+        "C、灰度共生矩阵",
+        "D、直方图均衡化"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 22,
+      "type": "single_choice",
+      "question": "以下哪种算法常用于机器视觉中的目标跟踪?",
+      "options": [
+        "A、Kalman滤波",
+        "B、粒子滤波",
+        "C、均值漂移",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 23,
+      "type": "single_choice",
+      "question": "机器视觉系统的照明方式不包括 ()",
+      "options": [
+        "A、正面照明",
+        "B、背面照明",
+        "C、侧面照明",
+        "D、局部照明"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 24,
+      "type": "single_choice",
+      "question": "图像的对比度增强可以通过()实现",
+      "options": [
+        "A、直方图均衡化",
+        "B、灰度变换",
+        "C、滤波",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 25,
+      "type": "single_choice",
+      "question": "机器视觉中，用于识别字符的方法通常是()",
+      "options": [
+        "A、模板匹配",
+        "B、神经网络",
+        "C、支持向量机",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 26,
+      "type": "single_choice",
+      "question": "以下哪种图像分割方法基于区域生长?",
+      "options": [
+        "A、阈值分割",
+        "B、边缘分割",
+        "C、分水岭分割",
+        "D、聚类分割"
+      ],
+      "correct_answer": "C"
+    },
+  ],
+  "multi_choice": [
+    {
+      "id": 1,
+      "type": "multi_choice",
+      "question": "影响机器视觉系统重复精度的因素包括()",
+      "options": [
+        "A、机械振动",
+        "B、温度变化",
+        "C、光源闪烁",
+        "D、算法稳定性",
+        "E、相机分辨率"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multi_choice",
+      "question": "下列属于3D视觉技术的是()",
+      "options": [
+        "A、双目立体视觉",
+        "B、结构光投影",
+        "C、飞行时间(ToF)",
+        "D、激光三角测量",
+        "E、光场成像"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "multi_choice",
+      "question": "机器视觉中防止镜头结雾的措施包括()",
+      "options": [
+        "A、安装加热器",
+        "B、充氮密封",
+        "C、使用防雾涂层",
+        "D、增加曝光时间",
+        "E、降低环境湿度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multi_choice",
+      "question": "下列适合高速检测的相机特性包括()",
+      "options": [
+        "A、全局快门",
+        "B、高帧率(>100fps)",
+        "C、低读出噪声",
+        "D、千兆网接口",
+        "E、高分辨率"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "multi_choice",
+      "question": "机器视觉系统的通信协议包括()",
+      "options": [
+        "A、GigEVision",
+        "B、USB3 Vision",
+        "C、Camera Link",
+        "D、GenICam",
+        "E、MQTT"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "multi_choice",
+      "question": "机器视觉系统标定需获取的参数包括()",
+      "options": [
+        "A、相机内参",
+        "B、相机外参",
+        "C、镜头畸变系数",
+        "D、像素当量",
+        "E、光源亮度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "multi_choice",
+      "question": "下列属于深度学习优化技术的是() 量化感知训练",
+      "options": [
+        "A、模型剪枝",
+        "B、知识蒸馏",
+        "C、",
+        "D、数据增强",
+        "E、迁移学习"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "multi_choice",
+      "question": "影响机器视觉系统稳定性的环境因素包括(",
+      "options": [
+        "A、温度波动",
+        "B、湿度变化",
+        "C、电磁干扰",
+        "D、机械振动",
+        "E、光照变化"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "multi_choice",
+      "question": "工业相机选型需考虑的参数包括()",
+      "options": [
+        "A、分辨率",
+        "B、帧率",
+        "C、快门类型",
+        "D、接口类型",
+        "E、动态范围"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "multi_choice",
+      "question": "机器视觉中的图像预处理技术包括()",
+      "options": [
+        "A、去马赛克",
+        "B、平场校正",
+        "C、坏点校正",
+        "D、伽马校正",
+        "E、色彩空间转换"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "multi_choice",
+      "question": "下列属于机器视觉应用场景的是()",
+      "options": [
+        "A、产品分拣",
+        "B、尺寸测量",
+        "C、表面缺陷检测",
+        "D、机器人引导",
+        "E、三维重建"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "multi_choice",
+      "question": "机器视觉系统集成组件包括",
+      "options": [
+        "A、光学镜头",
+        "B、光源控制器",
+        "C、图像采集卡",
+        "D、工控机",
+        "E、I/O模块"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "multi_choice",
+      "question": "下列属于特征描述符的是()",
+      "options": [
+        "A、SIFT",
+        "B、SURF",
+        "C、ORB",
+        "D、HOG",
+        "E、BRIEF"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "multi_choice",
+      "question": "机器视觉中的非接触测量方法包括()",
+      "options": [
+        "A、激光测距",
+        "B、结构光扫描",
+        "C、双目视觉",
+        "D、光栅投影",
+        "E、飞行时间法"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "multi_choice",
+      "question": "影响光源寿命的因素包括()",
+      "options": [
+        "A、工作温度",
+        "B、驱动电流",
+        "C、开关频率",
+        "D、环境湿度",
+        "E、电源稳定性"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "multi_choice",
+      "question": "机器视觉系统故障诊断方法包括 ()",
+      "options": [
+        "A、图像质量分析",
+        "B、日志分析",
+        "C、信号测试",
+        "D、参数校验",
+        "E、部件替换"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "multi_choice",
+      "question": "下列属于机器视觉软件功能的是()",
+      "options": [
+        "A、图像采集",
+        "B、算法处理",
+        "C、结果输出",
+        "D、数据可视化",
+        "E、设备控制"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "multi_choice",
+      "question": "机器视觉中的光学滤波器类型包括 ()",
+      "options": [
+        "A、带通滤波片",
+        "B、中性密度镜",
+        "C、偏振片",
+        "D、红外截止滤光片",
+        "E、紫外透过滤光片"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "multi_choice",
+      "question": "下列属于三维点云处理技术的是()",
+      "options": [
+        "A、点云分割",
+        "B、法线估计",
+        "C、点云配准",
+        "D、曲面重建",
+        "E、体素化"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "multi_choice",
+      "question": "机器视觉系统性能验证指标包括 ()",
+      "options": [
+        "A、重复精度",
+        "B、检测速度",
+        "C、误检率",
+        "D、漏检率",
+        "E、稳定性"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "multi_choice",
+      "question": "下列属于工业镜头关键参数的是()",
+      "options": [
+        "A、焦距",
+        "B、光圈范围",
+        "C、工作距离",
+        "D、接口类型",
+        "E、分辨率"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "multi_choice",
+      "question": "机器视觉中的图像分割方法包括()",
+      "options": [
+        "A、阈值分割",
+        "B、边缘检测",
+        "C、区域生长",
+        "D、聚类分割",
+        "E、分水岭分割"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "multi_choice",
+      "question": "下列影响景深的因素包括() ---------------",
+      "options": [
+        "A、光圈大小",
+        "B、焦距",
+        "C、工作距离",
+        "D、传感器尺寸",
+        "E、像面照度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "multi_choice",
+      "question": "机器视觉系统抗干扰措施包括(",
+      "options": [
+        "A、电磁屏蔽",
+        "B、接地保护",
+        "C、光学滤波",
+        "D、软件滤波",
+        "E、机械隔离"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    
+  ],
+  "true_false": [
+    {
+      "id": 1,
+      "type": "true_false",
+      "question": "机器视觉系统可以完全替代人工视觉。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "question": "机器视觉系统对环境光线变化不敏感。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "type": "true_false",
+      "question": "机器视觉中的图像处理算法可以提高图像的识别率。 A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 4,
+      "type": "true_false",
+      "question": "机器视觉系统不能用于动态物体的检测。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "question": "机器视觉系统可以用于测量物体的三维形状。 A、对 B、错",
+      "correct_answer": "A"
+    },
+    
+  ]
+};
+
+let activeTab = '单选';
+let answers = {};
+
+// 渲染题目
+function renderQuestions(){
+  const container = $("#question-container");
+  container.empty();
+  let qs = [];
+  if(activeTab==='单选') qs = questions.single_choice;
+  else if(activeTab==='多选') qs = questions.multi_choice;
+  else qs = questions.true_false;
+
+  qs.forEach((q,index)=>{
+    let html = `<div class="question-item" data-id="${q.id}"><div><strong>Q${index+1}. ${q.question}</strong></div>`;
+    if(activeTab==='单选'){
+      q.options.forEach(opt=>{
+        html += `<div><input type="radio" name="q${q.id}" value="${opt[0]}" class="option-input"> ${opt}</div>`;
+      });
+    } else if(activeTab==='多选'){
+      q.options.forEach(opt=>{
+        html += `<div><input type="checkbox" data-id="${q.id}" value="${opt[0]}" class="option-input-multi"> ${opt}</div>`;
+      });
+    } else {
+      html += `<div><input type="radio" name="q${q.id}" value="A" class="option-input"> A、对</div>`;
+      html += `<div><input type="radio" name="q${q.id}" value="B" class="option-input"> B、错</div>`;
+    }
+    html += `</div>`;
+    container.append(html);
+  });
+  renderNav();
+}
+
+// 渲染题号导航
+function renderNav(){
+  const nav = $("#nav-box");
+  nav.empty();
+  let qs = [];
+  if(activeTab==='单选') qs = questions.single_choice;
+  else if(activeTab==='多选') qs = questions.multi_choice;
+  else qs = questions.true_false;
+
+  qs.forEach((q,index)=>{
+    nav.append(`<div class="nav-item" data-id="${q.id}" data-index="${index}">${index+1}</div>`);
+  });
+  updateNavColors();
+}
+
+// 更新导航颜色
+function updateNavColors(){
+  $(".nav-item").each(function(){
+    const id = $(this).data("id");
+    if(answers[id] !== undefined){
+      $(this).removeClass("wrong").addClass("answered");
+    }
+  });
+}
+
+// 获取题目正确答案
+function getCorrectAnswer(id){
+  const all = [...questions.single_choice,...questions.multi_choice,...questions.true_false];
+  const q = all.find(q=>q.id===id);
+  return q.correct_answer;
+}
+
+// 提交
+$("#submit-btn").click(function(){
+  let qs = [];
+  if(activeTab==='单选') qs = questions.single_choice;
+  else if(activeTab==='多选') qs = questions.multi_choice;
+  else qs = questions.true_false;
+
+  let score = 0;
+  qs.forEach(q=>{
+    const id = q.id;
+    const user = answers[id];
+    const correct = q.correct_answer;
+    let isCorrect = false;
+    if(Array.isArray(correct)){
+      if(Array.isArray(user) && user.sort().toString()===correct.sort().toString()) isCorrect=true;
+    } else {
+      if(user===correct) isCorrect=true;
+    }
+    const navItem = $(`.nav-item[data-id=${id}]`);
+    if(isCorrect) score += 1;
+    else navItem.removeClass("answered").addClass("wrong");
+  });
+  $("#score-box").text(`得分: ${score} / ${qs.length}`);
+});
+
+// 记录答案
+$(document).on("change",".option-input",function(){
+  const id = parseInt($(this).closest(".question-item").data("id"));
+  answers[id] = $(this).val();
+  updateNavColors();
+});
+
+$(document).on("change",".option-input-multi",function(){
+  const id = parseInt($(this).data("id"));
+  const checked = $(`.option-input-multi[data-id=${id}]:checked`).map(function(){ return $(this).val(); }).get();
+  answers[id] = checked;
+  updateNavColors();
+});
+
+// 点击题号滚动
+$(document).on("click",".nav-item",function(){
+  const id = $(this).data("id");
+  const el = $(`.question-item[data-id=${id}]`);
+  if(el.length>0) $("html,body").animate({scrollTop:el.offset().top - 20},300);
+});
+
+// 切换Tab
+$(".tab-btn").click(function(){
+  $(".tab-btn").removeClass("active");
+  $(this).addClass("active");
+  activeTab = $(this).text();
+  renderQuestions();
+});
+
+// 初始化
+renderQuestions();
+</script>
+
+</body>
+</html>

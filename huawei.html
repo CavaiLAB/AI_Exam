@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>机器视觉刷题学习</title>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="huawei.js"></script>
+<style>
+body { margin:0; font-family: Arial, sans-serif; }
+.container { display: flex; }
+.main { flex: 1; padding: 20px; }
+.question-item { border:1px solid #ccc; padding:15px; margin-bottom:15px; background:#fff; }
+.option-label { display:block; cursor:pointer; padding:2px 0; }
+.option-label:hover { background:#f0f0f0; }
+.nav { width:380px; padding:20px; position:sticky; top:0; background:#eee; height:100vh; box-sizing:border-box; overflow-y:auto; }
+#nav-box { display:flex; flex-wrap:wrap; }
+.nav-title { width:100%; margin:10px 0 5px; font-weight:bold; text-align:center; border-bottom:1px solid #999; }
+.nav-item { width: calc(100% / 8 - 6px); height:30px; line-height:30px; text-align:center; margin:3px; background:#fff; color:#000; cursor:pointer; border:1px solid #ccc; box-sizing:border-box; }
+.nav-item.answered { background:yellow; color:#000; }
+.nav-item.correct { background:#3498db; color:#fff; }
+.nav-item.wrong { background:#e74c3c; color:#fff; }
+.nav-item.unanswered { background:#000; color:#fff; }
+#submit-btn { width:100%; padding:8px; margin-top:10px; cursor:pointer; background:#2ecc71; color:white; border:none; }
+#score-box { margin-top:15px; text-align:center; font-weight:bold; }
+.correct-answer { color:green; margin-top:5px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="main">
+    <div id="question-container"></div>
+  </div>
+
+  <div class="nav">
+    <div id="nav-box"></div>
+    <button id="submit-btn">提交</button>
+    <div id="score-box"></div>
+  </div>
+</div>
+
+<script>
+let questions = {};
+let answers = {};
+
+// 通过 AJAX 读取题库
+// $.getJSON('question.json', function(data){
+//     questions = data;
+//     renderQuestions();
+// });
+
+setTimeout(()=>{
+    questions = {
+      single_choice:single_choice_questions,multi_choice:multi_choice_questions,true_false:true_false_questions
+
+    }
+    
+    renderQuestions();
+}, 100);
+
+// 渲染题目
+function renderQuestions(){
+    const container = $("#question-container");
+    container.empty();
+
+    let allQuestions = [];
+    if(questions.single_choice) allQuestions = allQuestions.concat(questions.single_choice);
+    if(questions.multi_choice) allQuestions = allQuestions.concat(questions.multi_choice);
+    if(questions.true_false) allQuestions = allQuestions.concat(questions.true_false);
+
+    allQuestions.forEach((q,index)=>{
+        let html = `<div class="question-item" data-id="${q.type}_${q.id}"><div><strong>Q${index+1}. ${q.question}</strong></div>`;
+        if(q.type === 'single_choice'){
+            q.options.forEach(opt=>{
+                html += `<label class="option-label"><input type="radio" name="q${q.type}_${q.id}" value="${opt[0]}" class="option-input"> ${opt}</label>`;
+            });
+        } else if(q.type === 'multi_choice'){
+            q.options.forEach(opt=>{
+                html += `<label class="option-label"><input type="checkbox" data-id="${q.type}_${q.id}" value="${opt[0]}" class="option-input-multi"> ${opt}</label>`;
+            });
+        } else if(q.type === 'true_false'){
+            html += `<label class="option-label"><input type="radio" name="q${q.type}_${q.id}" value="A" class="option-input"> A、对</label>`;
+            html += `<label class="option-label"><input type="radio" name="q${q.type}_${q.id}" value="B" class="option-input"> B、错</label>`;
+        }
+        html += `</div>`;
+        container.append(html);
+    });
+
+    renderNav();
+}
+
+// 渲染题号导航
+function renderNav(){
+    const nav = $("#nav-box");
+    nav.empty();
+
+    function renderSection(title, qArray){
+        if(!qArray) return;
+        nav.append(`<div class="nav-title">${title}</div>`);
+        qArray.forEach((q,index)=>{
+            nav.append(`<div class="nav-item unanswered" data-id="${q.type}_${q.id}" data-index="${index}">${index+1}</div>`);
+        });
+    }
+
+    renderSection("单选题", questions.single_choice);
+    renderSection("多选题", questions.multi_choice);
+    renderSection("判断题", questions.true_false);
+
+    updateNavColors();
+}
+
+// 更新导航颜色
+function updateNavColors(){
+    $(".nav-item").each(function(){
+        const id = $(this).data("id");
+        if(answers[id] !== undefined){
+            $(this).removeClass("unanswered correct wrong").addClass("answered");
+        } else {
+            $(this).removeClass("answered correct wrong").addClass("unanswered");
+        }
+    });
+}
+
+// 提交
+$("#submit-btn").click(function(){
+    let allQuestions = [];
+    if(questions.single_choice) allQuestions = allQuestions.concat(questions.single_choice);
+    if(questions.multi_choice) allQuestions = allQuestions.concat(questions.multi_choice);
+    if(questions.true_false) allQuestions = allQuestions.concat(questions.true_false);
+
+    let score = 0;
+    allQuestions.forEach(q=>{
+        const id = q.type + "_" + q.id;
+        const user = answers[id];
+        const correct = q.correct_answer;
+        const qDiv = $(`.question-item[data-id='${id}']`);
+        let isCorrect = false;
+        if(user !== undefined){
+            if(Array.isArray(correct)){
+                if(Array.isArray(user) && user.sort().toString()===correct.sort().toString()) isCorrect=true;
+            } else {
+                if(user===correct) isCorrect=true;
+            }
+        }
+
+        const navItem = $(`.nav-item[data-id='${id}']`);
+        navItem.removeClass("answered").removeClass("unanswered");
+        if(isCorrect){
+            navItem.addClass("correct");
+            score += 1;
+        } else if(user !== undefined){
+            navItem.addClass("wrong");
+        } else {
+            navItem.addClass("unanswered");
+        }
+
+        // 显示正确答案，只针对做过的题
+        qDiv.find(".correct-answer").remove();
+        if(user !== undefined && !isCorrect){
+            if(Array.isArray(correct)){
+                qDiv.append(`<div class="correct-answer">正确答案: ${correct.join(", ")}</div>`);
+            } else {
+                qDiv.append(`<div class="correct-answer">正确答案: ${correct}</div>`);
+            }
+        }
+    });
+    $("#score-box").text(`得分: ${score} / ${allQuestions.length}`);
+});
+
+// 记录答案
+$(document).on("change",".option-input",function(){
+    const id = $(this).closest(".question-item").data("id");
+    answers[id] = $(this).val();
+    updateNavColors();
+});
+
+$(document).on("change",".option-input-multi",function(){
+    const id = $(this).data("id");
+    const checked = $(`.option-input-multi[data-id='${id}']:checked`).map(function(){ return $(this).val(); }).get();
+    answers[id] = checked;
+    updateNavColors();
+});
+
+// 点击题号滚动
+$(document).on("click",".nav-item",function(){
+    const id = $(this).data("id");
+    const el = $(`.question-item[data-id='${id}']`);
+    if(el.length>0) $("html,body").animate({scrollTop:el.offset().top - 20},300);
+});
+</script>
+
+</body>
+</html>

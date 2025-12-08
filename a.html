@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>工业视觉系统运维竞赛练习</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h2 { color: #0066cc; }
+    .question { margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+    .options { margin-top: 5px; }
+    .answer { margin-top: 5px; color: green; display: none; }
+    .stats { margin-top: 20px; font-weight: bold; }
+    button { margin: 15px 0; padding: 6px 12px; }
+  </style>
+</head>
+<body>
+  <h1>工业视觉系统运维竞赛学习题库</h1>
+
+  <div id="quiz"></div>
+
+  <button onclick="showAnswers()">显示答案</button>
+  <div class="stats" id="stats"></div>
+
+  <script>
+    // ================== 题库（示例，前5道单选题） ==================
+    const questions = {
+      single: [
+        {
+          q: "以下哪项不是机器视觉系统的基本组成部分？",
+          options: ["光源", "相机", "显示器", "图像采集卡"],
+          answer: [2] // C
+        },
+        {
+          q: "在机器视觉中，边缘检测是一种：",
+          options: ["颜色识别技术", "形状识别技术", "距离测量技术", "纹理分析技术"],
+          answer: [1] // B
+        },
+        {
+          q: "机器视觉中，灰度图像的每个像素通常用多少位表示？",
+          options: ["4位", "8位", "12位", "16位"],
+          answer: [1] // B
+        },
+        {
+          q: "在机器视觉应用中，常用的图像分割方法是：",
+          options: ["阈值分割", "压缩编码", "卷积计算", "傅里叶变换"],
+          answer: [0] // A
+        },
+        {
+          q: "下列哪种滤波方法最适合去除椒盐噪声？",
+          options: ["均值滤波", "中值滤波", "高斯滤波", "Sobel滤波"],
+          answer: [1] // B
+        }
+      ],
+      multi: [
+        // 多选题会放在这里
+      ],
+      judge: [
+        // 判断题会放在这里
+      ]
+    };
+
+    // ================== 动态生成题目 ==================
+    const quizDiv = document.getElementById("quiz");
+
+    function renderQuestions() {
+      ["single", "multi", "judge"].forEach(type => {
+        let section = document.createElement("div");
+        let title = document.createElement("h2");
+        title.textContent = type === "single" ? "单选题" : (type === "multi" ? "多选题" : "判断题");
+        section.appendChild(title);
+
+        questions[type].forEach((q, idx) => {
+          let div = document.createElement("div");
+          div.className = "question";
+
+          let p = document.createElement("p");
+          p.textContent = (idx+1) + "、" + q.q;
+          div.appendChild(p);
+
+          q.options.forEach((opt, i) => {
+            let label = document.createElement("label");
+            let input = document.createElement("input");
+            input.type = (type === "multi") ? "checkbox" : "radio";
+            input.name = type + "_" + idx;
+            input.value = i;
+            label.appendChild(input);
+            label.appendChild(document.createTextNode(" " + opt));
+            div.appendChild(label);
+            div.appendChild(document.createElement("br"));
+          });
+
+          let ans = document.createElement("div");
+          ans.className = "answer";
+          ans.textContent = "正确答案: " + q.answer.map(i => q.options[i]).join(" / ");
+          div.appendChild(ans);
+
+          section.appendChild(div);
+        });
+
+        quizDiv.appendChild(section);
+      });
+    }
+
+    renderQuestions();
+
+    // ================== 答案与统计 ==================
+    function showAnswers() {
+      let correct = 0, total = 0, unanswered = 0;
+
+      ["single","multi","judge"].forEach(type => {
+        questions[type].forEach((q, idx) => {
+          total++;
+          let inputs = document.getElementsByName(type + "_" + idx);
+          let selected = [];
+          inputs.forEach(input => {
+            if (input.checked) selected.push(Number(input.value));
+          });
+
+          let ansDiv = inputs[0].closest(".question").querySelector(".answer");
+          ansDiv.style.display = "block";
+
+          if (selected.length === 0) {
+            unanswered++;
+          } else if (arraysEqual(selected.sort(), q.answer.slice().sort())) {
+            correct++;
+          }
+        });
+      });
+
+      document.getElementById("stats").textContent =
+        `统计：作对 ${correct} / 总题数 ${total} / 未做 ${unanswered}`;
+    }
+
+    function arraysEqual(a, b) {
+      return JSON.stringify(a) === JSON.stringify(b);
+    }
+  </script>
+</body>
+</html>

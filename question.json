@@ -1,0 +1,6113 @@
+{
+  "single_choice": [
+    {
+      "id": 1,
+      "type": "single_choice",
+      "question": "以下哪项不是机器视觉系统的基本组成部分?",
+      "options": [
+        "A、光源",
+        "B、相机",
+        "C、显示器",
+        "D、图像采集卡"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 2,
+      "type": "single_choice",
+      "question": "在机器视觉中，边缘检测是一种:()",
+      "options": [
+        "A、颜色识别技术",
+        "B、形状识别技术",
+        "C、距离测量技术",
+        "D、纹理分析技术"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "type": "single_choice",
+      "question": "机器视觉中，用于提高图像对比度的设备是:()",
+      "options": [
+        "A、滤光片",
+        "B、偏振片",
+        "C、增益控制器",
+        "D、光源"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 4,
+      "type": "single_choice",
+      "question": "以下哪种算法常用于机器视觉中的模式识别?()",
+      "options": [
+        "A、傅里叶变换",
+        "B、快速傅里叶变换",
+        "C、霍夫变换",
+        "D、拉普拉斯变换"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 5,
+      "type": "single_choice",
+      "question": "机器视觉中，用于测量物体尺寸的常用方法是:()",
+      "options": [
+        "A、颜色分析",
+        "B、形状分析",
+        "C、边缘检测",
+        "D、灰度分析"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 6,
+      "type": "single_choice",
+      "question": "机器视觉系统中，用于消除环境光干扰的设备是:()",
+      "options": [
+        "A、相机",
+        "B、光源",
+        "C、滤光片",
+        "D、显示器"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 7,
+      "type": "single_choice",
+      "question": " 在机器视觉中，用于识别二维码的算法是:",
+      "options": [
+        "A、模板匹配",
+        "B、特征匹配",
+        "C、二维码解码",
+        "D、边缘跟踪"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 8,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体表面缺陷的方法是:()",
+      "options": [
+        "A、颜色识别",
+        "B、形状识别",
+        "C、表面检测",
+        "D、距离测量"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 9,
+      "type": "single_choice",
+      "question": "机器视觉中，用于测量物体位置的常用方法是:()",
+      "options": [
+        "A、颜色分析",
+        "B、形状分析",
+        "C、边缘检测",
+        "D、特征匹配"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 10,
+      "type": "single_choice",
+      "question": "机器视觉系统中，用于采集图像的设备通常是()",
+      "options": [
+        "A、传感器",
+        "B、相机",
+        "C、镜头",
+        "D、光源"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 11,
+      "type": "single_choice",
+      "question": "机器视觉中，图像分辨率的单位通常是()",
+      "options": [
+        "A、dpi",
+        "B、ppi",
+        "C、lpi",
+        "D、mpi"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 12,
+      "type": "single_choice",
+      "question": "机器视觉中，用于提取图像特征的算法属于()",
+      "options": [
+        "A、图像增强",
+        "B、图像分割",
+        "C、图像识别",
+        "D、图像压缩"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 13,
+      "type": "single_choice",
+      "question": "以下哪种图像滤波算法可以有效去除椒盐噪声?",
+      "options": [
+        "A、中值滤波",
+        "B、均值滤波",
+        "C、高斯滤波",
+        "D、拉普拉斯滤波"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 14,
+      "type": "single_choice",
+      "question": "在机器视觉中，边缘检测常用的算法是()",
+      "options": [
+        "A、Sobel算子",
+        "B、Laplacian算子",
+        "C、Canny算子",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 15,
+      "type": "single_choice",
+      "question": "机器视觉系统的精度主要取决于 ()",
+      "options": [
+        "A、相机分辨率",
+        "B、镜头精度",
+        "C、图像处理算法",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 16,
+      "type": "single_choice",
+      "question": "以下哪种颜色空间在机器视觉中常用于颜色检测?",
+      "options": [
+        "A、RGB",
+        "B、HSV",
+        "C、YUV",
+        "D、CMYK"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 17,
+      "type": "single_choice",
+      "question": "图像二值化处理中，常用的阈值选取方法是()",
+      "options": [
+        "A、固定阈值",
+        "B、自适应阈值",
+        "C、手动阈值",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 18,
+      "type": "single_choice",
+      "question": "以下哪种镜头畸变小，适用于高精度测量?",
+      "options": [
+        "A、广角镜头",
+        "B、长焦镜头",
+        "C、标准镜头",
+        "D、鱼眼镜头"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 19,
+      "type": "single_choice",
+      "question": "机器视觉系统中，图像预处理的目的是()",
+      "options": [
+        "A、提高图像质量",
+        "B、减少计算量",
+        "C、便于后续处理",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 20,
+      "type": "single_choice",
+      "question": "以下哪种图像格式常用于机器视觉系统?",
+      "options": [
+        "A、JPEG",
+        "B、BMP",
+        "C、PNG",
+        "D、TIFF"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 21,
+      "type": "single_choice",
+      "question": "机器视觉检测中，若要检测物体的位置和方向，通常使用()",
+      "options": [
+        "A、形状匹配",
+        "B、纹理分析",
+        "C、灰度共生矩阵",
+        "D、直方图均衡化"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 22,
+      "type": "single_choice",
+      "question": "以下哪种算法常用于机器视觉中的目标跟踪?",
+      "options": [
+        "A、Kalman滤波",
+        "B、粒子滤波",
+        "C、均值漂移",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 23,
+      "type": "single_choice",
+      "question": "机器视觉系统的照明方式不包括 ()",
+      "options": [
+        "A、正面照明",
+        "B、背面照明",
+        "C、侧面照明",
+        "D、局部照明"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 24,
+      "type": "single_choice",
+      "question": "图像的对比度增强可以通过()实现",
+      "options": [
+        "A、直方图均衡化",
+        "B、灰度变换",
+        "C、滤波",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 25,
+      "type": "single_choice",
+      "question": "机器视觉中，用于识别字符的方法通常是()",
+      "options": [
+        "A、模板匹配",
+        "B、神经网络",
+        "C、支持向量机",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 26,
+      "type": "single_choice",
+      "question": "以下哪种图像分割方法基于区域生长?",
+      "options": [
+        "A、阈值分割",
+        "B、边缘分割",
+        "C、分水岭分割",
+        "D、聚类分割"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 27,
+      "type": "single_choice",
+      "question": "机器视觉系统的工作流程通常包括() 照明设置、图像采集、分析、存储",
+      "options": [
+        "A、图像采集、预处理、特征提取、决策",
+        "B、图像采集、增强、识别、输出",
+        "C、",
+        "D、以上都是"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 28,
+      "type": "single_choice",
+      "question": "图像的频域处理常用于()",
+      "options": [
+        "A、图像增强",
+        "B、图像压缩",
+        "C、图像滤波",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 29,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体表面平整度的方法是()",
+      "options": [
+        "A、光切法",
+        "B、干涉法",
+        "C、结构光法",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 30,
+      "type": "single_choice",
+      "question": "以下哪种算法在机器视觉的目标检测中具有较高的准确率?()",
+      "options": [
+        "A、R-CNN",
+        "B、FastR-CNN",
+        "C、Faster R-CNN",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 31,
+      "type": "single_choice",
+      "question": "机器视觉系统中，减小景深可以(",
+      "options": [
+        "A、使整个物体清晰成像",
+        "B、突出物体的某一部分",
+        "C、增加图像的对比度",
+        "D、提高图像的分辨率"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 32,
+      "type": "single_choice",
+      "question": "图像的噪声主要来源于",
+      "options": [
+        "A、传感器",
+        "B、传输过程",
+        "C、量化过程",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 33,
+      "type": "single_choice",
+      "question": "机器视觉中，用于对图像进行几何变换的是()",
+      "options": [
+        "A、仿射变换",
+        "B、透视变换",
+        "C、旋转变换",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 34,
+      "type": "single_choice",
+      "question": "以下哪种方法可以提高机器视觉系统的实时性?",
+      "options": [
+        "A、优化算法",
+        "B、采用高性能硬件",
+        "C、减少图像数据量",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 35,
+      "type": "single_choice",
+      "question": "机器视觉检测中，若物体颜色变化较大，应选择()光源",
+      "options": [
+        "A、白色",
+        "B、红色",
+        "C、蓝色",
+        "D、紫色"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 36,
+      "type": "single_choice",
+      "question": "图像的锐化处理可以通过()实现",
+      "options": [
+        "A、微分运算",
+        "B、积分运算",
+        "C、傅里叶变换",
+        "D、小波变换"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 37,
+      "type": "single_choice",
+      "question": "机器视觉中，用于图像匹配的特征通常包括(",
+      "options": [
+        "A、点特征",
+        "B、线特征",
+        "C、区域特征",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 38,
+      "type": "single_choice",
+      "question": "以下哪种镜头适用于大视场的检测?",
+      "options": [
+        "A、广角镜头",
+        "B、长焦镜头",
+        "C、微距镜头",
+        "D、变焦镜头"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 39,
+      "type": "single_choice",
+      "question": "机器视觉系统中，图像的存储格式取决于",
+      "options": [
+        "A、图像大小",
+        "B、应用需求",
+        "C、处理速度",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 40,
+      "type": "single_choice",
+      "question": "以下哪种图像压缩算法是无损压缩?",
+      "options": [
+        "A、JPEG",
+        "B、PNG",
+        "C、BMP",
+        "D、GIF"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 41,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测微小物体的相机通常具有()",
+      "options": [
+        "A、高分辨率",
+        "B、高帧率",
+        "C、大景深",
+        "D、大靶面"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 42,
+      "type": "single_choice",
+      "question": "图像的平滑处理可以去除()",
+      "options": [
+        "A、噪声",
+        "B、边缘",
+        "C、细节",
+        "D、对比度"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 43,
+      "type": "single_choice",
+      "question": "机器视觉系统的标定主要是为了确定()",
+      "options": [
+        "A、相机的内参和外参",
+        "B、光源的参数",
+        "C、镜头的参数",
+        "D、图像的参数",
+        "B、随机森林"
+      ],
+      "correct_answer": ""
+    },
+    {
+      "id": 44,
+      "type": "single_choice",
+      "question": "以下哪种算法常用于机器视觉中的图像分类?",
+      "options": [
+        "A、决策树",
+        "B、随机森林",
+        "C、深度学习",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 45,
+      "type": "single_choice",
+      "question": "机器视觉中，用于提高图像对比度的直方图操作是 ()",
+      "options": [
+        "A、直方图规定化",
+        "B、直方图均衡化",
+        "C、直方图拉伸",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 46,
+      "type": "single_choice",
+      "question": "以下哪种图像分割方法基于像素的相似性?",
+      "options": [
+        "A、阈值分割",
+        "B、聚类分割",
+        "C、区域生长",
+        "D、分水岭分割"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 47,
+      "type": "single_choice",
+      "question": "机器视觉系统中，相机的帧率决定了()",
+      "options": [
+        "A、采集图像的速度",
+        "B、图像的分辨率",
+        "C、图像的质量",
+        "D、镜头的焦距"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 48,
+      "type": "single_choice",
+      "question": "图像的形态学处理包括",
+      "options": [
+        "A、膨胀",
+        "B、腐蚀",
+        "C、开运算",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 49,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体表面粗糙度的方法是()",
+      "options": [
+        "A、激光干涉法",
+        "B、触针法",
+        "C、光学散射法",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 50,
+      "type": "single_choice",
+      "question": "以下哪种颜色模型在机器视觉中常用于颜色分离?",
+      "options": [
+        "A、RGB",
+        "B、CMYK",
+        "C、Lab",
+        "D、HSV"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 51,
+      "type": "single_choice",
+      "question": "机器视觉系统的稳定性主要取决于()",
+      "options": [
+        "A、硬件质量",
+        "B、软件算法",
+        "C、环境因素",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 52,
+      "type": "single_choice",
+      "question": "图像的边缘增强可以通过()实现",
+      "options": [
+        "A、Sobel算子",
+        "B、中值滤波",
+        "C、均值滤波",
+        "D、高斯滤波"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 53,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体三维形状的技术是()",
+      "options": [
+        "A、立体视觉",
+        "B、结构光",
+        "C、激光三角测量",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 54,
+      "type": "single_choice",
+      "question": "以下哪种图像增强方法可以突出图像的高频部分?",
+      "options": [
+        "A、高通滤波",
+        "B、低通滤波",
+        "C、带通滤波",
+        "D、带阻滤波"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 55,
+      "type": "single_choice",
+      "question": "机器视觉系统中，镜头的焦距影响()",
+      "options": [
+        "A、视场大小",
+        "B、景深",
+        "C、放大倍数",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 56,
+      "type": "single_choice",
+      "question": "图像的二值化处理可以将图像分为()",
+      "options": [
+        "A、目标和背景",
+        "B、前景和后景",
+        "C、黑色和白色",
+        "D、以上都是"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 57,
+      "type": "single_choice",
+      "question": "机器视觉中，用于消除图像光照不均匀的方法是 ()",
+      "options": [
+        "A、直方图均衡化",
+        "B、同态滤波",
+        "C、中值滤波",
+        "D、高斯滤波"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 58,
+      "type": "single_choice",
+      "question": "以下哪种算法常用于机器视觉中的目标识别?",
+      "options": [
+        "A、SIFT",
+        "B、SURF",
+        "C、ORB",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 59,
+      "type": "single_choice",
+      "question": "机器视觉系统中，光源的亮度均匀性对()有影响",
+      "options": [
+        "A、图像质量",
+        "B、检测精度",
+        "C、系统稳定性",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 60,
+      "type": "single_choice",
+      "question": "图像的傅里叶变换用于 ()",
+      "options": [
+        "A、频率分析",
+        "B、图像压缩",
+        "C、图像增强",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 61,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体运动速度的方法是()",
+      "options": [
+        "A、光流法",
+        "B、帧差法",
+        "C、背景减除",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 62,
+      "type": "single_choice",
+      "question": "以下哪种图像分割方法对噪声敏感?",
+      "options": [
+        "A、阈值分割",
+        "B、边缘分割",
+        "C、区域生长",
+        "D、聚类分割"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 63,
+      "type": "single_choice",
+      "question": "机器视觉系统中，相机的曝光时间影响()",
+      "options": [
+        "A、图像亮度",
+        "B、图像清晰度",
+        "C、图像噪声",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 64,
+      "type": "single_choice",
+      "question": "图像的小波变换在()方面有应用 -------------",
+      "options": [
+        "A、图像压缩",
+        "B、图像去噪",
+        "C、特征提取",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 65,
+      "type": "single_choice",
+      "question": "以下哪种颜色空间在机器视觉中对光照变化不敏感?",
+      "options": [
+        "A、RGB",
+        "B、HSV",
+        "C、YUV",
+        "D、Lab"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 66,
+      "type": "single_choice",
+      "question": "机器视觉系统中，图像处理的速度主要取决于()",
+      "options": [
+        "A、算法复杂度",
+        "B、计算机性能",
+        "C、图像数据量",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 67,
+      "type": "single_choice",
+      "question": "图像的数学形态学运算基于",
+      "options": [
+        "A、集合论",
+        "B、概率论",
+        "C、线性代数",
+        "D、微积分"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 68,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体表面纹理的方法是()",
+      "options": [
+        "A、Gabor滤波",
+        "B、小波变换",
+        "C、灰度共生矩阵",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 69,
+      "type": "single_choice",
+      "question": "以下哪种图像增强方法可以扩大图像的动态范围?",
+      "options": [
+        "A、对数变换",
+        "B、指数变换",
+        "C、幂律变换",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 70,
+      "type": "single_choice",
+      "question": "机器视觉系统中，镜头的视场角决定了()",
+      "options": [
+        "A、可观测范围",
+        "B、图像清晰度",
+        "C、景深大小",
+        "D、放大倍数"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 71,
+      "type": "single_choice",
+      "question": "机器视觉中，用于提高图像清晰度的方法是()",
+      "options": [
+        "A、直方图均衡化",
+        "B、锐化滤波",
+        "C、中值滤波",
+        "D、均值滤波"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 72,
+      "type": "single_choice",
+      "question": "机器视觉中，用于实现图像配准的技术是()",
+      "options": [
+        "A、特征点匹配",
+        "B、灰度匹配",
+        "C、相位相关",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 73,
+      "type": "single_choice",
+      "question": "以下哪种光源在机器视觉中能突出物体的轮廓?",
+      "options": [
+        "A、背光源",
+        "B、侧光源",
+        "C、环形光源",
+        "D、同轴光源"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 74,
+      "type": "single_choice",
+      "question": "机器视觉系统中，图像的量化位数越高()",
+      "options": [
+        "A、图像质量越好",
+        "B、存储容量越大",
+        "C、处理速度越慢",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 75,
+      "type": "single_choice",
+      "question": "图像的霍夫变换常用于检测",
+      "options": [
+        "A、直线",
+        "B、圆",
+        "C、椭圆",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 76,
+      "type": "single_choice",
+      "question": "机器视觉中，用于提高检测精度的方法包括()",
+      "options": [
+        "A、多次测量取平均值",
+        "B、采用更先进的算法",
+        "C、优化系统参数",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 77,
+      "type": "single_choice",
+      "question": "以下哪种图像分割算法对图像的灰度变化敏感?",
+      "options": [
+        "A、基于阈值的分割",
+        "B、基于边缘的分割",
+        "C、基于区域的分割",
+        "D、基于聚类的分割"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 78,
+      "type": "single_choice",
+      "question": "机器视觉系统的可靠性主要取决于()",
+      "options": [
+        "A、系统的稳定性",
+        "B、容错能力",
+        "C、可维护性",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 79,
+      "type": "single_choice",
+      "question": "图像的对比度拉伸可以()",
+      "options": [
+        "A、增强图像的细节",
+        "B、改善图像的视觉效果",
+        "C、突出图像的目标",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 80,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体表面缺陷的技术有()",
+      "options": [
+        "A、机器视觉深度学习",
+        "B、模板匹配",
+        "C、特征提取",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 81,
+      "type": "single_choice",
+      "question": "以下哪种镜头的景深较大?",
+      "options": [
+        "A、短焦镜头",
+        "B、长焦镜头",
+        "C、标准镜头",
+        "D、微距镜头"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 82,
+      "type": "single_choice",
+      "question": "机器视觉系统中，图像的色彩模式转换通常用于()",
+      "options": [
+        "A、适应不同的处理算法",
+        "B、满足特定的显示需求",
+        "C、提高图像质量",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 83,
+      "type": "single_choice",
+      "question": "图像的平滑处理在机器视觉中可以()",
+      "options": [
+        "A、减少噪声干扰",
+        "B、使图像更清晰",
+        "C、增强边缘",
+        "D、提高对比度"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 84,
+      "type": "single_choice",
+      "question": "机器视觉中，用于定位物体的方法通常基于 图像匹配",
+      "options": [
+        "A、边缘检测",
+        "B、特征提取",
+        "C、",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 85,
+      "type": "single_choice",
+      "question": "以下哪种图像压缩标准适用于机器视觉中的实时传输?",
+      "options": [
+        "A、JPEG",
+        "B、JPEG2000",
+        "C、H.264",
+        "D、H.265"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 86,
+      "type": "single_choice",
+      "question": "机器视觉系统中，光源的颜色选择依据是()",
+      "options": [
+        "A、物体的颜色和材质",
+        "B、检测环境的光照条件",
+        "C、相机的响应特性",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 87,
+      "type": "single_choice",
+      "question": "图像的锐化处理会",
+      "options": [
+        "A、增强图像的边缘和细节",
+        "B、使图像变得模糊",
+        "C、降低图像的对比度",
+        "D、增加图像的噪声"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 88,
+      "type": "single_choice",
+      "question": "机器视觉中，用于测量物体角度的方法是()",
+      "options": [
+        "A、几何计算",
+        "B、模板匹配",
+        "C、霍夫变换",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 89,
+      "type": "single_choice",
+      "question": "以下哪种图像滤波算法能够保留图像的边缘信息?",
+      "options": [
+        "A、中值滤波",
+        "B、高斯滤波",
+        "C、双边滤波",
+        "D、均值滤波"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 90,
+      "type": "single_choice",
+      "question": "机器视觉系统中，相机的分辨率越高",
+      "options": [
+        "A、检测精度越高",
+        "B、视场范围越大",
+        "C、采集速度越慢",
+        "D、以上都是"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 91,
+      "type": "single_choice",
+      "question": "图像的直方图均衡化处理是为了()",
+      "options": [
+        "A、增强图像对比度",
+        "B、压缩图像数据",
+        "C、去除图像噪声",
+        "D、提取图像特征"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 92,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测微小位移的技术是()",
+      "options": [
+        "A、干涉测量",
+        "B、激光测距",
+        "C、视觉跟踪",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 93,
+      "type": "single_choice",
+      "question": "以下哪种图像分割方法适用于具有复杂纹理的图像?()",
+      "options": [
+        "A、基于纹理的分割",
+        "B、基于阈值的分割",
+        "C、基于边缘的分割",
+        "D、基于区域的分割"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 94,
+      "type": "single_choice",
+      "question": "机器视觉系统中，镜头的光圈大小影响()",
+      "options": [
+        "A、景深",
+        "B、进光量",
+        "C、图像清晰度",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 95,
+      "type": "single_choice",
+      "question": "图像的形态学开运算可以()",
+      "options": [
+        "A、去除噪声",
+        "B、平滑物体轮廓",
+        "C、断开狭窄的连接",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 96,
+      "type": "single_choice",
+      "question": "机器视觉中，用于识别复杂形状的方法是()",
+      "options": [
+        "A、深度学习",
+        "B、形状模板匹配",
+        "C、轮廓分析",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 97,
+      "type": "single_choice",
+      "question": "以下哪种光源在机器视觉中能产生均匀的照明效果?",
+      "options": [
+        "A、面光源",
+        "B、点光源",
+        "C、线光源",
+        "D、环形光源"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 98,
+      "type": "single_choice",
+      "question": "机器视觉系统中，图像的灰度共生矩阵用于()",
+      "options": [
+        "A、描述图像的纹理特征",
+        "B、检测图像的边缘",
+        "C、压缩图像数据",
+        "D、增强图像对比度"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 99,
+      "type": "single_choice",
+      "question": "图像的傅里叶变换频谱中，高频部分对应图像的()",
+      "options": [
+        "A、边缘和细节",
+        "B、平滑区域",
+        "C、背景",
+        "D、噪声"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 100,
+      "type": "single_choice",
+      "question": "以下哪种图像增强方法可以增强图像的暗区域?()",
+      "options": [
+        "A、伽马校正",
+        "B、直方图规定化",
+        "C、对比度拉伸",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 101,
+      "type": "single_choice",
+      "question": "机器视觉系统中，相机与物体的距离影响()",
+      "options": [
+        "A、图像的放大倍数",
+        "B、景深",
+        "C、视场大小",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 102,
+      "type": "single_choice",
+      "question": "在下列图像的边缘检测算子中，对噪声最敏感的是()",
+      "options": [
+        "A、Roberts算子",
+        "B、Sobel算子",
+        "C、Prewitt算子",
+        "D、Laplacian算子"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 103,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体表面平整度的光学方法是()",
+      "options": [
+        "A、干涉测量",
+        "B、投影条纹法",
+        "C、激光三角法",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 104,
+      "type": "single_choice",
+      "question": "以下哪种图像格式支持透明通道?",
+      "options": [
+        "A、PNG",
+        "B、JPEG",
+        "C、BMP",
+        "D、TIFF"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 105,
+      "type": "single_choice",
+      "question": "机器视觉系统中，用于将光学图像转换为电信号的是()",
+      "options": [
+        "A、光源",
+        "B、镜头",
+        "C、相机",
+        "D、图像采集卡"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 106,
+      "type": "single_choice",
+      "question": "以下哪种图像预处理方法主要用于去除图像中的噪声?()",
+      "options": [
+        "A、边缘检测",
+        "B、阈值分割",
+        "C、滤波",
+        "D、特征提取"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 107,
+      "type": "single_choice",
+      "question": "在机器视觉中，镜头的焦距越长，成像范围",
+      "options": [
+        "A、越大",
+        "B、越小",
+        "C、不变",
+        "D、不确定"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 108,
+      "type": "single_choice",
+      "question": "图像的分辨率是指",
+      "options": [
+        "A、图像的色彩深度",
+        "B、图像中像素的数量",
+        "C、图像的文件大小",
+        "D、图像的清晰度"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 109,
+      "type": "single_choice",
+      "question": "以下哪种光源属于冷光源，且寿命较长?",
+      "options": [
+        "A、白炽灯",
+        "B、荧光灯",
+        "C、LED光源",
+        "D、激光光源"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 110,
+      "type": "single_choice",
+      "question": "在以下边缘检测算子中，对噪声较敏感的是()",
+      "options": [
+        "A、Sobel算子",
+        "B、Prewitt算子",
+        "C、Roberts算子",
+        "D、Canny算子"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 111,
+      "type": "single_choice",
+      "question": "图像采集卡的主要作用是()",
+      "options": [
+        "A、照亮物体",
+        "B、聚焦成像",
+        "C、将电信号转换为数字图像",
+        "D、存储图像数据"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 112,
+      "type": "single_choice",
+      "question": "以下哪种图像格式压缩比高，且常用于网络传输?",
+      "options": [
+        "A、BMP",
+        "B、JPG",
+        "C、TIFF",
+        "D、PNG"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 113,
+      "type": "single_choice",
+      "question": "模板匹配中，当模板与目标存在旋转差异时，应采用()",
+      "options": [
+        "A、刚性模板匹配",
+        "B、柔性模板匹配",
+        "C、多尺度模板匹配",
+        "D、旋转不变模板匹配"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 114,
+      "type": "single_choice",
+      "question": "机器视觉系统中，图像处理软件的核心功能是()",
+      "options": [
+        "A、图像采集",
+        "B、图像显示",
+        "C、图像分析与处理",
+        "D、图像存储"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 115,
+      "type": "single_choice",
+      "question": "立体视觉中，视差是指",
+      "options": [
+        "A、两个相机之间的距离",
+        "B、物体在两个图像中的位置差异",
+        "C、物体到相机的距离",
+        "D、图像的分辨率差异"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 116,
+      "type": "single_choice",
+      "question": "以下哪种特征属于图像的局部特征?",
+      "options": [
+        "A、灰度直方图",
+        "B、纹理特征",
+        "C、SIFT特征",
+        "D、颜色特征"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 117,
+      "type": "single_choice",
+      "question": "阈值分割中，当图像的灰度分布呈现明显的双峰时，适合采用 ()",
+      "options": [
+        "A、全局阈值法",
+        "B、局部阈值法",
+        "C、自适应阈值法",
+        "D、迭代阈值法"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 118,
+      "type": "single_choice",
+      "question": "机器视觉中，常用于检测物体表面缺陷的技术是()",
+      "options": [
+        "A、模板匹配",
+        "B、边缘检测",
+        "C、缺陷检测算法",
+        "D、特征提取"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 119,
+      "type": "single_choice",
+      "question": "以下哪种相机属于面阵相机?",
+      "options": [
+        "A、线阵CCD相机",
+        "B、面阵CMOS相机",
+        "C、红外相机",
+        "D、高速相机"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 120,
+      "type": "single_choice",
+      "question": "图像增强的目的是(",
+      "options": [
+        "A、去除图像中的噪声",
+        "B、提高图像的可辨识度",
+        "C、压缩图像数据",
+        "D、提取图像中的特征"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 121,
+      "type": "single_choice",
+      "question": "机器视觉系统中，光源的选择需要考虑的因素不包括()",
+      "options": [
+        "A、物体的颜色",
+        "B、物体的材质",
+        "C、相机的分辨率",
+        "D、检测的特征"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 122,
+      "type": "single_choice",
+      "question": "以下哪种边缘检测算子可以检测出图像中不同方向的边缘?",
+      "options": [
+        "A、Sobel算子",
+        "B、Prewitt算子",
+        "C、Roberts算子",
+        "D、Laplacian算子"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 123,
+      "type": "single_choice",
+      "question": "模板匹配的基本原理是(",
+      "options": [
+        "A、在图像中寻找与模板形状相似的区域",
+        "B、计算图像的灰度直方图",
+        "C、提取图像的特征点",
+        "D、对图像进行阈值分割"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 124,
+      "type": "single_choice",
+      "question": "立体视觉系统中，两个相机的相对位置关系可以通过()确定。",
+      "options": [
+        "A、摄像机标定",
+        "B、模板匹配",
+        "C、边缘检测",
+        "D、阈值分割"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 125,
+      "type": "single_choice",
+      "question": "机器视觉中，用于物体定位的技术不包括()",
+      "options": [
+        "A、模板匹配",
+        "B、特征点匹配",
+        "C、立体视觉",
+        "D、灰度直方图"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 126,
+      "type": "single_choice",
+      "question": "以下哪种滤波方法属于线性滤波?",
+      "options": [
+        "A、中值滤波",
+        "B、均值滤波",
+        "C、双边滤波",
+        "D、形态学滤波"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 127,
+      "type": "single_choice",
+      "question": "摄像机的内参数不包括()",
+      "options": [
+        "A、焦距",
+        "B、主点坐标",
+        "C、畸变系数",
+        "D、相机的位置"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 128,
+      "type": "single_choice",
+      "question": "机器视觉中，模板匹配的精度与以下哪个因素无关?",
+      "options": [
+        "A、模板的大小",
+        "B、图像的分辨率",
+        "C、光照条件",
+        "D、相机的品牌"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 129,
+      "type": "single_choice",
+      "question": "以下哪种图像预处理方法可以增强图像中的边缘信息?",
+      "options": [
+        "A、均值滤波",
+        "B、中值滤波",
+        "C、拉普拉斯滤波",
+        "D、高斯滤波"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 130,
+      "type": "single_choice",
+      "question": "立体视觉中，计算视差时需要用到的参数是()",
+      "options": [
+        "A、相机的内参数",
+        "B、相机的外参数",
+        "C、基线长度",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 131,
+      "type": "single_choice",
+      "question": "以下哪种特征提取方法基于图像的灰度变化?",
+      "options": [
+        "A、颜色直方图",
+        "B、纹理分析",
+        "C、边缘检测",
+        "D、SIFT特征"
+      ],
+      "correct_answer": ""
+    },
+    {
+      "id": 132,
+      "type": "single_choice",
+      "question": "阈值分割中，当图像光照不均匀时，适合采用(",
+      "options": [
+        "A、全局阈值法",
+        "B、局部阈值法",
+        "C、固定阈值法",
+        "D、单一阈值法"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 133,
+      "type": "single_choice",
+      "question": "机器视觉系统中，相机的帧率是指()",
+      "options": [
+        "A、相机的分辨率",
+        "B、相机每秒拍摄的图像数量",
+        "C、相机的曝光时间",
+        "D、相机的焦距"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 134,
+      "type": "single_choice",
+      "question": "图像的灰度级是指",
+      "options": [
+        "A、图像的分辨率",
+        "B、图像中像素的亮度等级",
+        "C、图像的色彩数量",
+        "D、图像的文件大小"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 135,
+      "type": "single_choice",
+      "question": "以下哪种模板匹配方法计算速度较快?",
+      "options": [
+        "A、归一化互相关匹配",
+        "B、平方差匹配",
+        "C、相关性匹配",
+        "D、快速匹配"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 136,
+      "type": "single_choice",
+      "question": "摄像机标定中，常用的标定板是()",
+      "options": [
+        "A、棋盘格标定板",
+        "B、圆形标定板",
+        "C、三角形标定板",
+        "D、不规则图形标定板"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 137,
+      "type": "single_choice",
+      "question": "以下哪种滤波方法可以同时抑制噪声和保留边缘信息?()",
+      "options": [
+        "A、均值滤波",
+        "B、中值滤波",
+        "C、双边滤波",
+        "D、高斯滤波"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 138,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体是否存在的技术是()",
+      "options": [
+        "A、尺寸测量",
+        "B、缺陷检测",
+        "C、有无检测",
+        "D、定位检测"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 139,
+      "type": "single_choice",
+      "question": "立体视觉系统的两个相机需要满足的条件是()",
+      "options": [
+        "A、焦距相同",
+        "B、光轴平行",
+        "C、位置固定",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 140,
+      "type": "single_choice",
+      "question": "以下哪种图像格式支持透明通道?",
+      "options": [
+        "A、BMP",
+        "B、JPG",
+        "C、PNG",
+        "D、TIFF"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 141,
+      "type": "single_choice",
+      "question": "边缘检测中，阈值的选择会影响",
+      "options": [
+        "A、边缘的数量",
+        "B、边缘的位置",
+        "C、边缘的清晰度",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 142,
+      "type": "single_choice",
+      "question": "机器视觉中，模板匹配的旋转角度范围取决于 C",
+      "options": [
+        "A、模板的大小",
+        "B、图像的分辨率",
+        "C、算法的支持",
+        "D、相机的帧率"
+      ],
+      "correct_answer": ""
+    },
+    {
+      "id": 143,
+      "type": "single_choice",
+      "question": "以下哪种光源的波长较长?",
+      "options": [
+        "A、紫外光源",
+        "B、可见光光源",
+        "C、红外光源",
+        "D、激光光源"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 144,
+      "type": "single_choice",
+      "question": "图像采集时，曝光时间过长会导致()",
+      "options": [
+        "A、图像过暗",
+        "B、图像过亮",
+        "C、图像模糊",
+        "D、图像分辨率降低"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 145,
+      "type": "single_choice",
+      "question": "以下哪种特征属于图像的全局特征?",
+      "options": [
+        "A、角点",
+        "B、边缘",
+        "C、灰度直方图",
+        "D、SIFT特征点"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 146,
+      "type": "single_choice",
+      "question": "摄像机标定的棋盘格标定板上的角点是()",
+      "options": [
+        "A、黑白相间的交点",
+        "B、黑色方块的中心",
+        "C、白色方块的中心",
+        "D、棋盘格的边缘"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 147,
+      "type": "single_choice",
+      "question": "机器视觉系统中，图像处理的基本流程是()",
+      "options": [
+        "A、图像采集→图像预处理→特征提取→目标识别与分析",
+        "B、图像预处理→图像采集→特征提取→目标识别与分析",
+        "C、特征提取→图像采集→图像预处理→目标识别与分析",
+        "D、目标识别与分析→图像采集→图像预处理→特征提取"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 148,
+      "type": "single_choice",
+      "question": "立体视觉中，基线长度越长，测量精度",
+      "options": [
+        "A、越高",
+        "B、越低",
+        "C、不变",
+        "D、不确定"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 149,
+      "type": "single_choice",
+      "question": "以下哪种图像增强方法可以提高图像的对比度?",
+      "options": [
+        "A、灰度变换",
+        "B、平滑处理",
+        "C、锐化处理",
+        "D、阈值分割"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 150,
+      "type": "single_choice",
+      "question": "机器视觉中，常用于检测透明物体的光源是()",
+      "options": [
+        "A、背光光源",
+        "B、同轴光源",
+        "C、环形光源",
+        "D、点光源"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 151,
+      "type": "single_choice",
+      "question": "以下哪种边缘检测算子的抗噪声能力最强?",
+      "options": [
+        "A、Sobel算子",
+        "B、Prewitt算子",
+        "C、Canny算子",
+        "D、Roberts算子"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 152,
+      "type": "single_choice",
+      "question": "模板匹配中，当目标存在缩放差异时，应采用",
+      "options": [
+        "A、刚性模板匹配",
+        "B、多尺度模板匹配",
+        "C、旋转不变模板匹配",
+        "D、柔性模板匹配"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 153,
+      "type": "single_choice",
+      "question": "摄像机的畸变主要包括(",
+      "options": [
+        "A、径向畸变",
+        "B、切向畸变",
+        "C、薄棱镜畸变",
+        "D、以上都是"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 154,
+      "type": "single_choice",
+      "question": "以下哪种图像压缩方法会丢失部分图像信息?",
+      "options": [
+        "A、无损压缩",
+        "B、有损压缩",
+        "C、哈夫曼编码",
+        "D、LZW压缩"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 155,
+      "type": "single_choice",
+      "question": "机器视觉中，用于物体计数的技术是 ()",
+      "options": [
+        "A、特征识别",
+        "B、模板匹配",
+        "C、blob分析",
+        "D、立体视觉"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 156,
+      "type": "single_choice",
+      "question": "以下哪种光源的亮度较高?",
+      "options": [
+        "A、LED光源",
+        "B、白炽灯",
+        "C、荧光灯",
+        "D、激光光源"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 157,
+      "type": "single_choice",
+      "question": "图像的空间分辨率是指",
+      "options": [
+        "A、图像中像素的数量",
+        "B、图像中像素的大小",
+        "C、图像的灰度级数量",
+        "D、图像的色彩深度"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 158,
+      "type": "single_choice",
+      "question": "边缘检测的基本原理是检测图像中()",
+      "options": [
+        "A、灰度的突变",
+        "B、颜色的变化",
+        "C、纹理的变化",
+        "D、形状的变化"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 159,
+      "type": "single_choice",
+      "question": "机器视觉系统中，镜头的光圈大小会影响 ()",
+      "options": [
+        "A、图像的分辨率",
+        "B、图像的亮度",
+        "C、图像的色彩",
+        "D、图像的帧率"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 160,
+      "type": "single_choice",
+      "question": "以下哪种立体视觉方法不需要精确的相机标定?",
+      "options": [
+        "A、基于特征的立体匹配",
+        "B、基于区域的立体匹配",
+        "C、运动恢复结构",
+        "D、稠密立体匹配"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 161,
+      "type": "single_choice",
+      "question": "以下哪种特征提取方法对旋转和尺度变化不敏感?",
+      "options": [
+        "A、Harris角点检测",
+        "B、SIFT特征",
+        "C、边缘检测",
+        "D、颜色直方图"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 162,
+      "type": "single_choice",
+      "question": "阈值分割中，迭代阈值法的基本思想是(",
+      "options": [
+        "A、根据图像的灰度分布自动确定阈值",
+        "B、将图像分为多个区域，每个区域采用不同的阈值",
+        "C、通过不断迭代计算，找到最佳阈值",
+        "D、选择一个固定的阈值进行分割"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 163,
+      "type": "single_choice",
+      "question": "机器视觉中，相机的快门类型不包括 ()",
+      "options": [
+        "A、全局快门",
+        "B、滚动快门",
+        "C、电子快门",
+        "D、机械快门"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 164,
+      "type": "single_choice",
+      "question": "以下哪种光源适合检测物体表面的细微缺陷?",
+      "options": [
+        "A、背光光源",
+        "B、同轴光源",
+        "C、环形光源",
+        "D、点光源"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 165,
+      "type": "single_choice",
+      "question": "图像的灰度直方图反映了",
+      "options": [
+        "A、图像中像素的位置分布",
+        "B、图像中像素的灰度值分布",
+        "C、图像中物体的形状",
+        "D、图像中物体的颜色"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 166,
+      "type": "single_choice",
+      "question": "模板匹配中，归一化互相关匹配的优点是()",
+      "options": [
+        "A、计算速度快",
+        "B、对光照变化不敏感",
+        "C、对旋转变化不敏感",
+        "D、对尺度变化不敏感"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 167,
+      "type": "single_choice",
+      "question": "摄像机标定的方法不包括",
+      "options": [
+        "A、基于标定板的标定",
+        "B、自标定",
+        "C、基于运动的标定",
+        "D、模板匹配标定"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 168,
+      "type": "single_choice",
+      "question": "以下哪种图像预处理方法可以平滑图像，减少噪声?",
+      "options": [
+        "A、拉普拉斯滤波",
+        "B、Sobel滤波",
+        "C、高斯滤波",
+        "D、边缘检测"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 169,
+      "type": "single_choice",
+      "question": "立体视觉中，视差与物体到相机的距离的关系是()",
+      "options": [
+        "A、成正比",
+        "B、成反比",
+        "C、无关",
+        "D、不确定"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 170,
+      "type": "single_choice",
+      "question": "以下哪种图像格式是无损压缩的?()",
+      "options": [
+        "A、JPG",
+        "B、GIF",
+        "C、PNG",
+        "D、MPEG"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 171,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体颜色的技术是()",
+      "options": [
+        "A、灰度分析",
+        "B、颜色识别",
+        "C、模板匹配",
+        "D、blob分析"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 172,
+      "type": "single_choice",
+      "question": "以下哪种光源的寿命较短?",
+      "options": [
+        "A、LED光源",
+        "B、白炽灯",
+        "C、荧光灯",
+        "D、红外光源"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 173,
+      "type": "single_choice",
+      "question": "图像的采样频率越高，图像的()",
+      "options": [
+        "A、分辨率越高",
+        "B、分辨率越低",
+        "C、灰度级越高",
+        "D、灰度级越低"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 174,
+      "type": "single_choice",
+      "question": "边缘检测中，Canny算子的检测步骤不包括(",
+      "options": [
+        "A、高斯滤波",
+        "B、计算梯度幅值和方向",
+        "C、非极大值抑制",
+        "D、阈值分割"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 175,
+      "type": "single_choice",
+      "question": "机器视觉中，常用于检测物体位置偏移的技术是()",
+      "options": [
+        "A、尺寸测量",
+        "B、定位检测",
+        "C、缺陷检测",
+        "D、计数"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 176,
+      "type": "single_choice",
+      "question": "以下哪种立体视觉匹配方法基于像素的灰度值进行匹配?",
+      "options": [
+        "A、基于特征的立体匹配",
+        "B、基于区域的立体匹配",
+        "C、基于相位的立体匹配",
+        "D、基于轮廓的立体匹配"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 177,
+      "type": "single_choice",
+      "question": "以下哪种特征属于图像的形状特征?",
+      "options": [
+        "A、面积",
+        "B、颜色",
+        "C、纹理",
+        "D、灰度值"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 178,
+      "type": "single_choice",
+      "question": "阈值分割中，自适应阈值法的阈值是()",
+      "options": [
+        "A、固定不变的",
+        "B、根据图像的整体灰度分布确定的",
+        "C、根据图像的局部区域灰度分布确定的",
+        "D、随机确定的"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 179,
+      "type": "single_choice",
+      "question": "机器视觉系统中，相机的接口类型不包括(",
+      "options": [
+        "A、USB",
+        "B、GigE",
+        "C、CameralLink",
+        "D、CCD"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 180,
+      "type": "single_choice",
+      "question": "以下哪种光源可以产生单色光?",
+      "options": [
+        "A、白炽灯",
+        "B、荧光灯",
+        "C、LED光源",
+        "D、激光光源"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 181,
+      "type": "single_choice",
+      "question": "图像的对比度是指()",
+      "options": [
+        "A、图像中最亮和最暗部分的差异",
+        "B、图像中像素的数量",
+        "C、图像的色彩饱和度",
+        "D、图像的清晰度"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 182,
+      "type": "single_choice",
+      "question": "模板匹配中，当目标存在部分遮挡时，应采用",
+      "options": [
+        "A、刚性模板匹配",
+        "B、柔性模板匹配",
+        "C、多模板匹配",
+        "D、局部模板匹配"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 183,
+      "type": "single_choice",
+      "question": "摄像机的外参数包括()",
+      "options": [
+        "A、焦距",
+        "B、主点坐标",
+        "C、旋转矩阵和平移向量",
+        "D、畸变系数"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 184,
+      "type": "single_choice",
+      "question": "以下哪种图像压缩方法的压缩比最低?",
+      "options": [
+        "A、JPG",
+        "B、BMP",
+        "C、PNG",
+        "D、TIFF"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 185,
+      "type": "single_choice",
+      "question": "机器视觉中，用于检测物体表面颜色差异的技术是()",
+      "options": [
+        "A、颜色识别",
+        "B、模板匹配",
+        "C、blob分析",
+        "D、边缘检测"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 186,
+      "type": "single_choice",
+      "question": "以下哪种光源的响应速度较快?",
+      "options": [
+        "A、白炽灯",
+        "B、荧光灯",
+        "C、LED光源",
+        "D、钠灯"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 187,
+      "type": "single_choice",
+      "question": "图像的数字化过程包括",
+      "options": [
+        "A、采样和量化",
+        "B、压缩和编码",
+        "C、增强和恢复",
+        "D、分割和特征提取"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 188,
+      "type": "single_choice",
+      "question": "边缘检测中，Sobel算子计算的是图像的",
+      "options": [
+        "A、一阶导数",
+        "B、二阶导数",
+        "C、三阶导数",
+        "D、四阶导数"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 189,
+      "type": "single_choice",
+      "question": "机器视觉中，模板匹配的匹配得分越高，表示()",
+      "options": [
+        "A、模板与目标的相似度越低",
+        "B、模板与目标的相似度越高",
+        "C、模板的大小越合适",
+        "D、图像的分辨率越高"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 190,
+      "type": "single_choice",
+      "question": "立体视觉中，基线长度越短，测量范围(",
+      "options": [
+        "A、越大",
+        "B、越小",
+        "C、不变",
+        "D、不确定"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 191,
+      "type": "single_choice",
+      "question": "以下属于图像的纹理特征的提取方法的有()",
+      "options": [
+        "A、灰度共生矩阵",
+        "B、LBP算子",
+        "C、Gabor滤波器",
+        "D、小波变换"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 192,
+      "type": "single_choice",
+      "question": "机器视觉系统中，镜头的焦距越短，视场角()",
+      "options": [
+        "A、越大",
+        "B、越小",
+        "C、不变",
+        "D、不确定"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 193,
+      "type": "single_choice",
+      "question": "图像的灰度值范围通常是() -----------------------",
+      "options": [
+        "A、0-1",
+        "B、0-255",
+        "C、0-1024",
+        "D、0-65535"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 194,
+      "type": "single_choice",
+      "question": "相机标定的精度会影响",
+      "options": [
+        "A、图像的清晰度",
+        "B、图像的亮度",
+        "C、三维测量的精度",
+        "D、图像的色彩深度"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 195,
+      "type": "single_choice",
+      "question": "机器视觉中减少运动模糊的关键参数是()",
+      "options": [
+        "A、曝光时间",
+        "B、光圈大小",
+        "C、ISO感光度",
+        "D、焦距"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 196,
+      "type": "single_choice",
+      "question": "支持16位灰度深度的图像格式是()",
+      "options": [
+        "A、JPEG",
+        "B、PNG",
+        "C、BMP",
+        "D、TIFF"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 197,
+      "type": "single_choice",
+      "question": "棋盘格角点检测属于标定中的()",
+      "options": [
+        "A、特征提取",
+        "B、图像分割",
+        "C、图像增强",
+        "D、模式识别"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 198,
+      "type": "single_choice",
+      "question": "GigEVision接口的最大传输距离约(",
+      "options": [
+        "A、10米",
+        "B、50米",
+        "C、100米",
+        "D、1000米"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 199,
+      "type": "single_choice",
+      "question": "实时性最高的匹配算法是()",
+      "options": [
+        "A、SIFT特征匹配",
+        "B、ORB特征匹配",
+        "C、模板匹配",
+        "D、霍夫变换"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 200,
+      "type": "single_choice",
+      "question": "同轴光源特别适用检测",
+      "options": [
+        "A、透明物体内部缺陷",
+        "B、金属表面划痕",
+        "C、物体轮廓",
+        "D、彩色标签"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 201,
+      "type": "single_choice",
+      "question": "PTP协议在机器视觉中主要用于()",
+      "options": [
+        "A、图像压缩",
+        "B、时间同步",
+        "C、数据传输",
+        "D、曝光控制"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 202,
+      "type": "single_choice",
+      "question": "动态范围最大的相机类型是()",
+      "options": [
+        "A、CMOS全局快门",
+        "B、CCD相机",
+        "C、CMOS滚动快门",
+        "D、事件相机"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 203,
+      "type": "single_choice",
+      "question": "测量精度0.01mm需选用的相机像素是()",
+      "options": [
+        "A、500万像素",
+        "B、1000万像素",
+        "C、5000万像素",
+        "D、200万像素"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 204,
+      "type": "single_choice",
+      "question": "OpenCV中形态学闭运算函数是()",
+      "options": [
+        "A、cv2.erode()",
+        "B、cv2.dilate()",
+        "C、cv2.morphologyEx()",
+        "D、cv2.filter2D()"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 205,
+      "type": "single_choice",
+      "question": "工业镜头中\"WD\"表示()",
+      "options": [
+        "A、焦距",
+        "B、工作距离",
+        "C、视场角",
+        "D、分辨率"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 206,
+      "type": "single_choice",
+      "question": "抗环境光干扰最强的光源是()",
+      "options": [
+        "A、白光LED",
+        "B、红外光源",
+        "C、蓝光LED",
+        "D、紫外光源"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 207,
+      "type": "single_choice",
+      "question": "机器视觉系统EMC防护不包括()",
+      "options": [
+        "A、电源滤波",
+        "B、屏蔽机箱",
+        "C、接地保护",
+        "D、提高分辨率"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 208,
+      "type": "single_choice",
+      "question": "Halcon中图像采集函数是()",
+      "options": [
+        "A、read_image()",
+        "B、grab_image()",
+        "C、open_framegrabber()",
+        "D、find_shape_model()"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 209,
+      "type": "single_choice",
+      "question": "检测反光物体最适合的光源是()",
+      "options": [
+        "A、环形光源",
+        "B、同轴光源",
+        "C、背光源",
+        "D、点光源"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 210,
+      "type": "single_choice",
+      "question": "机器视觉项目验收的核心指标是()",
+      "options": [
+        "A、重复精度",
+        "B、检测速度",
+        "C、漏检率",
+        "D、误检率"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 211,
+      "type": "single_choice",
+      "question": "图像信噪比(SNR)的单位是()",
+      "options": [
+        "A、百分比",
+        "B、dB",
+        "C、像素",
+        "D、lux"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 212,
+      "type": "single_choice",
+      "question": "深度学习模型部署到边缘设备的框架是()",
+      "options": [
+        "A、TensorFlow",
+        "B、PyTorch",
+        "C、TensorRT",
+        "D、Keras"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 213,
+      "type": "single_choice",
+      "question": "相机触发信号类型不包括()",
+      "options": [
+        "A、电平触发",
+        "B、边沿触发",
+        "C、脉冲触发",
+        "D、温度触发"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 214,
+      "type": "single_choice",
+      "question": "机器视觉系统标定误差的主要来源是()",
+      "options": [
+        "A、标定板精度",
+        "B、特征点提取误差",
+        "C、镜头畸变",
+        "D、环境振动"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 215,
+      "type": "single_choice",
+      "question": "下列最不适合高温环境的相机是()",
+      "options": [
+        "A、工业级CCD",
+        "B、工业级CMOS",
+        "C、消费级USB相机",
+        "D、红外热像仪"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 216,
+      "type": "single_choice",
+      "question": "机器视觉系统I/O模块的作用是()",
+      "options": [
+        "A、存储图像",
+        "B、逻辑控制",
+        "C、数据传输",
+        "D、算法处理"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 217,
+      "type": "single_choice",
+      "question": "解决运动物体成像拖影需调整()",
+      "options": [
+        "A、曝光时间",
+        "B、增益值",
+        "C、白平衡",
+        "D、对比度"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 218,
+      "type": "single_choice",
+      "question": "下列算法最适合二维码识别的是()",
+      "options": [
+        "A、Hough变换",
+        "B、SIFT特征",
+        "C、ZBar库",
+        "D、Canny边缘检测"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 219,
+      "type": "single_choice",
+      "question": "机器视觉中的\"景深\"是指",
+      "options": [
+        "A、清晰成像的轴向范围",
+        "B、横向视野大小",
+        "C、最小可分辨细节",
+        "D、亮度动态范围"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 220,
+      "type": "single_choice",
+      "question": "工业相机防护等级IP65表示(",
+      "options": [
+        "A、防尘防水",
+        "B、防爆",
+        "C、防静电",
+        "D、防腐蚀"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 221,
+      "type": "single_choice",
+      "question": "最适合检测透明瓶体缺陷的照明方式是()",
+      "options": [
+        "A、明场照明",
+        "B、暗场照明",
+        "C、低角度照明",
+        "D、同轴照明"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 222,
+      "type": "single_choice",
+      "question": "机器视觉系统实时性最差的环节是()",
+      "options": [
+        "A、图像采集",
+        "B、图像传输",
+        "C、深度学习推理",
+        "D、结果输出"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 223,
+      "type": "single_choice",
+      "question": "下列接口传输带宽最高的是()",
+      "options": [
+        "A、USB2.0",
+        "B、GigE",
+        "C、CameraLink Base",
+        "D、CoaXPress 2.0"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 224,
+      "type": "single_choice",
+      "question": "机器视觉中的\"亚像素定位\"精度可达()",
+      "options": [
+        "A、0.1像素",
+        "B、0.01像素",
+        "C、1像素",
+        "D、0.5像素"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 225,
+      "type": "single_choice",
+      "question": "下列光源寿命最长的是()",
+      "options": [
+        "A、卤素灯",
+        "B、氙灯",
+        "C、LED光源",
+        "D、荧光灯"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 226,
+      "type": "single_choice",
+      "question": "机器视觉系统标定后验证精度用",
+      "options": [
+        "A、标定板",
+        "B、已知尺寸标准件",
+        "C、激光测距仪",
+        "D、千分尺"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 227,
+      "type": "single_choice",
+      "question": "下列最不适合高速检测的相机是()",
+      "options": [
+        "A、全局快门CMOS",
+        "B、CCD相机",
+        "C、事件相机",
+        "D、卷帘快门CMOS"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 228,
+      "type": "single_choice",
+      "question": "机器视觉中\"软触发\"指()",
+      "options": [
+        "A、软件控制采集",
+        "B、物理信号触发",
+        "C、定时采集",
+        "D、运动控制卡触发"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 229,
+      "type": "single_choice",
+      "question": "下列算法最适合圆孔定位的是()",
+      "options": [
+        "A、Hough圆检测",
+        "B、SIFT特征",
+        "C、模板匹配",
+        "D、边缘检测"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 230,
+      "type": "single_choice",
+      "question": "机器视觉系统功耗最大的部件是()",
+      "options": [
+        "A、相机",
+        "B、光源",
+        "C、工控机",
+        "D、镜头"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 231,
+      "type": "single_choice",
+      "question": "下列最适合高温环境的光源是()",
+      "options": [
+        "A、卤素灯",
+        "B、LED光源",
+        "C、氙灯",
+        "D、激光光源"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 232,
+      "type": "single_choice",
+      "question": "机器视觉中的\"ROI\"指",
+      "options": [
+        "A、系统接口",
+        "B、关注区域",
+        "C、镜头参数",
+        "D、图像格式"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 233,
+      "type": "single_choice",
+      "question": "下列最不适合检测镜面反光的算法是()",
+      "options": [
+        "A、偏振成像",
+        "B、HDR成像",
+        "C、同轴照明",
+        "D、直方图均衡化"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 234,
+      "type": "single_choice",
+      "question": "机器视觉系统验收的\"GRR\"指标指(",
+      "options": [
+        "A、重复精度",
+        "B、系统稳定性",
+        "C、量具重复性再现性",
+        "D、信噪比"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 235,
+      "type": "single_choice",
+      "question": "下列相机参数与图像噪声无关的是()",
+      "options": [
+        "A、分辨率",
+        "B、增益值",
+        "C、曝光时间",
+        "D、温度"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 236,
+      "type": "single_choice",
+      "question": "深度学习模型量化的主要目的是()",
+      "options": [
+        "A、提高精度",
+        "B、减小模型尺寸",
+        "C、增加层数",
+        "D、改进损失函数"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 237,
+      "type": "single_choice",
+      "question": "机器视觉系统中最常用的总线协议是()",
+      "options": [
+        "A、CAN总线",
+        "B、EtherCAT",
+        "C、PROFIBUS",
+        "D、Modbus"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 238,
+      "type": "single_choice",
+      "question": "下列镜头参数影响景深最大的是()",
+      "options": [
+        "A、焦距",
+        "B、光圈F值",
+        "C、工作距离",
+        "D、传感器尺寸"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 239,
+      "type": "single_choice",
+      "question": "机器视觉中的\"像素深度\"指",
+      "options": [
+        "A、像素尺寸",
+        "B、位深度",
+        "C、像素间距",
+        "D、填充因子"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 240,
+      "type": "single_choice",
+      "question": "下列光源颜色最易穿透雾气的是()",
+      "options": [
+        "A、红光",
+        "B、蓝光",
+        "C、绿光",
+        "D、白光"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 241,
+      "type": "single_choice",
+      "question": "机器视觉系统抗振动最有效的措施是()",
+      "options": [
+        "A、提高帧率",
+        "B、机械加固",
+        "C、算法滤波",
+        "D、降低分辨率"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 242,
+      "type": "single_choice",
+      "question": " 下列文件格式保存机器视觉标定参数的是()",
+      "options": [
+        "A、.jpg",
+        "B、.xml",
+        "C、.bmp",
+        "D、.avi"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 243,
+      "type": "single_choice",
+      "question": "机器视觉中\"FFC\"指(",
+      "options": [
+        "A、快速傅里叶变换",
+        "B、平场校正",
+        "C、特征提取",
+        "D、图像压缩"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 244,
+      "type": "single_choice",
+      "question": "下列最适合检测深孔内部的镜头是()",
+      "options": [
+        "A、远心镜头",
+        "B、微距镜头",
+        "C、内窥镜",
+        "D、鱼眼镜头"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 245,
+      "type": "single_choice",
+      "question": "机器视觉系统中最易受电磁干扰的部件是()",
+      "options": [
+        "A、相机",
+        "B、光源驱动器",
+        "C、工控机",
+        "D、I/O模块"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 246,
+      "type": "single_choice",
+      "question": "下列算法最适合字符分割的是()",
+      "options": [
+        "A、投影法",
+        "B、Hough变换",
+        "C、SIFT特征",
+        "D、模板匹配"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 247,
+      "type": "single_choice",
+      "question": "机器视觉中的\"BLOB分析\"用于()",
+      "options": [
+        "A、颜色识别",
+        "B、连通区域分析",
+        "C、边缘检测",
+        "D、纹理分析"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 248,
+      "type": "single_choice",
+      "question": "下列相机接口支持热插拔的是()",
+      "options": [
+        "A、CameraLink",
+        "B、GigEVision",
+        "C、CoaXPress",
+        "D、USB3 Vision"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 249,
+      "type": "single_choice",
+      "question": "机器视觉系统标定中\"重投影误差\"单位是()",
+      "options": [
+        "A、毫米",
+        "B、像素",
+        "C、百分比",
+        "D、弧度"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 250,
+      "type": "single_choice",
+      "question": "下列最不适合高精度测量的镜头是()",
+      "options": [
+        "A、双远心镜头",
+        "B、标准CCTV镜头",
+        "C、高分辨率定焦镜头",
+        "D、微距镜头"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 251,
+      "type": "single_choice",
+      "question": "机器视觉中的\"SNR\"指",
+      "options": [
+        "A、系统噪声比",
+        "B、信噪比",
+        "C、信号响应率",
+        "D、采样率"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 252,
+      "type": "single_choice",
+      "question": "下列深度学习框架专为移动端优化的是()",
+      "options": [
+        "A、TensorFlow",
+        "B、PyTorch",
+        "C、TensorFlow Lite",
+        "D、Caffe"
+      ],
+      "correct_answer": ""
+    },
+    {
+      "id": 253,
+      "type": "single_choice",
+      "question": "机器视觉系统中最常用的图像压缩格式是()",
+      "options": [
+        "A、BMP",
+        "B、PNG",
+        "C、JPEG",
+        "D、TIFF"
+      ],
+      "correct_answer": ""
+    },
+    {
+      "id": 254,
+      "type": "single_choice",
+      "question": "下列光源波长最适合检测表面微小划痕的是()",
+      "options": [
+        "A、365nmUV",
+        "B、450nm蓝光",
+        "C、630nm红光",
+        "D、850nmIR"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 255,
+      "type": "single_choice",
+      "question": "机器视觉中的\"HALCON\"是()",
+      "options": [
+        "A、相机品牌",
+        "B、图像处理库",
+        "C、镜头类型",
+        "D、光源控制器"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 256,
+      "type": "single_choice",
+      "question": "下列通信协议最适合实时控制的是()",
+      "options": [
+        "A、HTTP",
+        "B、TCP/IP",
+        "C、EtherCAT",
+        "D、MQTT"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 257,
+      "type": "single_choice",
+      "question": "机器视觉系统标定中\"手眼标定\"解决() -----------------",
+      "options": [
+        "A、镜头畸变",
+        "B、机械手与相机坐标系转换",
+        "C、光源均匀性",
+        "D、像素当量"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 258,
+      "type": "single_choice",
+      "question": "下列最易受环境光干扰的检测任务是()",
+      "options": [
+        "A、尺寸测量",
+        "B、颜色识别",
+        "C、二维码读取",
+        "D、表面缺陷检测"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 259,
+      "type": "single_choice",
+      "question": "机器视觉中的\"FPN\"指",
+      "options": [
+        "A、固定模式噪声",
+        "B、快速原型网络",
+        "C、特征金字塔网络",
+        "D、全像素噪声"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 260,
+      "type": "single_choice",
+      "question": "下列镜头参数与视野大小直接相关的是()",
+      "options": [
+        "A、焦距",
+        "B、光圈F值",
+        "C、工作距离",
+        "D、接口类型"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 261,
+      "type": "single_choice",
+      "question": "机器视觉系统中最常用的3D传感器是()",
+      "options": [
+        "A、双目相机",
+        "B、激光位移传感器",
+        "C、结构光投影仪",
+        "D、ToF相机"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 262,
+      "type": "single_choice",
+      "question": "下列算法最适合实时目标跟踪的是()",
+      "options": [
+        "A、SORT",
+        "B、YOLOv5",
+        "C、MaskR-CNN",
+        "D、U-Net"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 263,
+      "type": "single_choice",
+      "question": "机器视觉中的\"Binning\"模式用于()",
+      "options": [
+        "A、降噪",
+        "B、提高帧率",
+        "C、增加分辨率",
+        "D、扩展动态范围"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 264,
+      "type": "single_choice",
+      "question": "下列光源类型光效最高的是()",
+      "options": [
+        "A、卤素灯",
+        "B、氙灯",
+        "C、LED光源",
+        "D、荧光灯"
+      ],
+      "correct_answer": ""
+    },
+    {
+      "id": 265,
+      "type": "single_choice",
+      "question": "机器视觉系统中最易老化的部件是()",
+      "options": [
+        "A、相机",
+        "B、镜头",
+        "C、光源",
+        "D、工控机"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 266,
+      "type": "single_choice",
+      "question": "下列文件格式保存点云数据的是()",
+      "options": [
+        "A、.jpg",
+        "B、.ply",
+        "C、.xml",
+        "D、.csv"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 267,
+      "type": "single_choice",
+      "question": "机器视觉中的\"OCR\"指",
+      "options": [
+        "A、光学对比度识别",
+        "B、光学字符识别",
+        "C、物体分类识别",
+        "D、光学校准"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 268,
+      "type": "single_choice",
+      "question": "下列相机参数影响图像亮度最大的是()",
+      "options": [
+        "A、增益值",
+        "B、白平衡",
+        "C、伽马值",
+        "D、黑电平"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 269,
+      "type": "single_choice",
+      "question": "机器视觉系统中最常用的定位特征是()",
+      "options": [
+        "A、颜色",
+        "B、边缘",
+        "C、角点",
+        "D、纹理"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 270,
+      "type": "single_choice",
+      "question": "下列深度学习模型最适合图像分割的是() C",
+      "options": [
+        "A、ResNet",
+        "B、YOLO",
+        "C、U-Net",
+        "D、VGG"
+      ],
+      "correct_answer": ""
+    },
+    {
+      "id": 271,
+      "type": "single_choice",
+      "question": "机器视觉中的\"MTF\"指",
+      "options": [
+        "A、调制传递函数",
+        "B、最大传输帧率",
+        "C、最小可分辨特征",
+        "D、运动传递函数"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 272,
+      "type": "single_choice",
+      "question": "下列光源波长最适合检测荧光物质的是()",
+      "options": [
+        "A、254nmUV",
+        "B、365nm UV",
+        "C、450nm蓝光",
+        "D、530nm绿光"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 273,
+      "type": "single_choice",
+      "question": "机器视觉系统验收的\"CPK\"指标指",
+      "options": [
+        "A、系统稳定性",
+        "B、过程能力指数",
+        "C、信噪比",
+        "D、重复精度"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 274,
+      "type": "single_choice",
+      "question": "下列镜头畸变最难校正的是()",
+      "options": [
+        "A、径向畸变",
+        "B、切向畸变",
+        "C、薄棱镜畸变",
+        "D、透视畸变"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 275,
+      "type": "single_choice",
+      "question": "机器视觉中的\"FOV\"指",
+      "options": [
+        "A、景深",
+        "B、视场角",
+        "C、焦距",
+        "D、像面尺寸"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 276,
+      "type": "single_choice",
+      "question": "下列接口支持PoE供电的是()",
+      "options": [
+        "A、USB3.0",
+        "B、CameraLink",
+        "C、GigE Vision",
+        "D、CoaXPress"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 277,
+      "type": "single_choice",
+      "question": "机器视觉系统中最易产生热噪声的部件是()",
+      "options": [
+        "A、镜头",
+        "B、图像传感器",
+        "C、光源驱动器",
+        "D、数据线缆"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 278,
+      "type": "single_choice",
+      "question": "下列算法最适合尺寸测量的是()",
+      "options": [
+        "A、边缘检测",
+        "B、模板匹配",
+        "C、亚像素边缘提取",
+        "D、特征匹配"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 279,
+      "type": "single_choice",
+      "question": "机器视觉中的\"Bayer滤波\"用于()",
+      "options": [
+        "A、降噪",
+        "B、色彩插值",
+        "C、锐化",
+        "D、压缩"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 280,
+      "type": "single_choice",
+      "question": "下列光源类型显色性最好的是()",
+      "options": [
+        "A、白光LED",
+        "B、卤素灯",
+        "C、钠灯",
+        "D、汞灯"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 281,
+      "type": "single_choice",
+      "question": "机器视觉系统标定中\"张氏标定法\"用于()",
+      "options": [
+        "A、手眼标定",
+        "B、相机内参标定",
+        "C、立体标定",
+        "D、光学校准"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 282,
+      "type": "single_choice",
+      "question": "下列文件格式保存深度学习模型的是()",
+      "options": [
+        "A、.cfg",
+        "B、.weights",
+        "C、.xml",
+        "D、.bin"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 283,
+      "type": "single_choice",
+      "question": "机器视觉中的\"ROI\"设置主要影响()",
+      "options": [
+        "A、处理速度",
+        "B、图像质量",
+        "C、存储空间",
+        "D、传输带宽"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 284,
+      "type": "single_choice",
+      "question": "下列相机参数与动态范围相关的是()",
+      "options": [
+        "A、位深度",
+        "B、帧率",
+        "C、分辨率",
+        "D、接口类型"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 285,
+      "type": "single_choice",
+      "question": "机器视觉系统中最常用的图像增强方法是()",
+      "options": [
+        "A、直方图均衡化",
+        "B、高斯滤波",
+        "C、边缘锐化",
+        "D、形态学操作"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 286,
+      "type": "single_choice",
+      "question": "下列光源类型方向性最强的是()",
+      "options": [
+        "A、面光源",
+        "B、点光源",
+        "C、环形光源",
+        "D、同轴光源"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 287,
+      "type": "single_choice",
+      "question": "机器视觉中的\"HDR\"指",
+      "options": [
+        "A、高动态范围",
+        "B、高分辨率",
+        "C、高速采集",
+        "D、高精度"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 288,
+      "type": "single_choice",
+      "question": "下列算法最适合点云配准的是()",
+      "options": [
+        "A、ICP",
+        "B、RANSAC",
+        "C、SIFT",
+        "D、HOG"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 289,
+      "type": "single_choice",
+      "question": "机器视觉系统验收的\"误检率\"计算依据是()",
+      "options": [
+        "A、漏检数量",
+        "B、错误报警数量",
+        "C、总检测数量",
+        "D、重复检测差异"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 290,
+      "type": "single_choice",
+      "question": "下列镜头类型最适合测量圆柱体的是()",
+      "options": [
+        "A、远心镜头",
+        "B、鱼眼镜头",
+        "C、线扫镜头",
+        "D、微距镜头"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 291,
+      "type": "single_choice",
+      "question": "机器视觉中的\"ISP\"指(",
+      "options": [
+        "A、图像信号处理器",
+        "B、工业标准协议",
+        "C、图像采样协议",
+        "D、接口信号处理"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 292,
+      "type": "single_choice",
+      "question": "下列光源颜色最易被CMOS传感器感知的是()",
+      "options": [
+        "A、红光",
+        "B、绿光",
+        "C、蓝光",
+        "D、红外光"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 293,
+      "type": "single_choice",
+      "question": "机器视觉系统中最常用的3D重建算法是()",
+      "options": [
+        "A、SFM",
+        "B、SLAM",
+        "C、PnP",
+        "D、SVD"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 294,
+      "type": "single_choice",
+      "question": "深度学习目标检测中YOLO算法的特点是()",
+      "options": [
+        "A、两阶段检测",
+        "B、单阶段检测",
+        "C、仅支持分类任务",
+        "D、需要预定义候选框"
+      ],
+      "correct_answer": "B"
+    }
+  ],
+  "multi_choice": [
+    {
+      "id": 1001,
+      "type": "multi_choice",
+      "question": "影响机器视觉系统重复精度的因素包括()",
+      "options": [
+        "A、机械振动",
+        "B、温度变化",
+        "C、光源闪烁",
+        "D、算法稳定性",
+        "E、相机分辨率"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1002,
+      "type": "multi_choice",
+      "question": "下列属于3D视觉技术的是()",
+      "options": [
+        "A、双目立体视觉",
+        "B、结构光投影",
+        "C、飞行时间(ToF)",
+        "D、激光三角测量",
+        "E、光场成像"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1003,
+      "type": "multi_choice",
+      "question": "机器视觉中防止镜头结雾的措施包括()",
+      "options": [
+        "A、安装加热器",
+        "B、充氮密封",
+        "C、使用防雾涂层",
+        "D、增加曝光时间",
+        "E、降低环境湿度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": 1004,
+      "type": "multi_choice",
+      "question": "下列适合高速检测的相机特性包括()",
+      "options": [
+        "A、全局快门",
+        "B、高帧率(>100fps)",
+        "C、低读出噪声",
+        "D、千兆网接口",
+        "E、高分辨率"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1005,
+      "type": "multi_choice",
+      "question": "机器视觉系统的通信协议包括()",
+      "options": [
+        "A、GigEVision",
+        "B、USB3 Vision",
+        "C、Camera Link",
+        "D、GenICam",
+        "E、MQTT"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1006,
+      "type": "multi_choice",
+      "question": "机器视觉系统标定需获取的参数包括()",
+      "options": [
+        "A、相机内参",
+        "B、相机外参",
+        "C、镜头畸变系数",
+        "D、像素当量",
+        "E、光源亮度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1007,
+      "type": "multi_choice",
+      "question": "下列属于深度学习优化技术的是() 量化感知训练",
+      "options": [
+        "A、模型剪枝",
+        "B、知识蒸馏",
+        "C、",
+        "D、数据增强",
+        "E、迁移学习"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1008,
+      "type": "multi_choice",
+      "question": "影响机器视觉系统稳定性的环境因素包括(",
+      "options": [
+        "A、温度波动",
+        "B、湿度变化",
+        "C、电磁干扰",
+        "D、机械振动",
+        "E、光照变化"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1009,
+      "type": "multi_choice",
+      "question": "工业相机选型需考虑的参数包括()",
+      "options": [
+        "A、分辨率",
+        "B、帧率",
+        "C、快门类型",
+        "D、接口类型",
+        "E、动态范围"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1010,
+      "type": "multi_choice",
+      "question": "机器视觉中的图像预处理技术包括()",
+      "options": [
+        "A、去马赛克",
+        "B、平场校正",
+        "C、坏点校正",
+        "D、伽马校正",
+        "E、色彩空间转换"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1011,
+      "type": "multi_choice",
+      "question": "下列属于机器视觉应用场景的是()",
+      "options": [
+        "A、产品分拣",
+        "B、尺寸测量",
+        "C、表面缺陷检测",
+        "D、机器人引导",
+        "E、三维重建"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1012,
+      "type": "multi_choice",
+      "question": "机器视觉系统集成组件包括",
+      "options": [
+        "A、光学镜头",
+        "B、光源控制器",
+        "C、图像采集卡",
+        "D、工控机",
+        "E、I/O模块"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1013,
+      "type": "multi_choice",
+      "question": "下列属于特征描述符的是()",
+      "options": [
+        "A、SIFT",
+        "B、SURF",
+        "C、ORB",
+        "D、HOG",
+        "E、BRIEF"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1014,
+      "type": "multi_choice",
+      "question": "机器视觉中的非接触测量方法包括()",
+      "options": [
+        "A、激光测距",
+        "B、结构光扫描",
+        "C、双目视觉",
+        "D、光栅投影",
+        "E、飞行时间法"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1015,
+      "type": "multi_choice",
+      "question": "影响光源寿命的因素包括()",
+      "options": [
+        "A、工作温度",
+        "B、驱动电流",
+        "C、开关频率",
+        "D、环境湿度",
+        "E、电源稳定性"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1016,
+      "type": "multi_choice",
+      "question": "机器视觉系统故障诊断方法包括 ()",
+      "options": [
+        "A、图像质量分析",
+        "B、日志分析",
+        "C、信号测试",
+        "D、参数校验",
+        "E、部件替换"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1017,
+      "type": "multi_choice",
+      "question": "下列属于机器视觉软件功能的是()",
+      "options": [
+        "A、图像采集",
+        "B、算法处理",
+        "C、结果输出",
+        "D、数据可视化",
+        "E、设备控制"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1018,
+      "type": "multi_choice",
+      "question": "机器视觉中的光学滤波器类型包括 ()",
+      "options": [
+        "A、带通滤波片",
+        "B、中性密度镜",
+        "C、偏振片",
+        "D、红外截止滤光片",
+        "E、紫外透过滤光片"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1019,
+      "type": "multi_choice",
+      "question": "下列属于三维点云处理技术的是()",
+      "options": [
+        "A、点云分割",
+        "B、法线估计",
+        "C、点云配准",
+        "D、曲面重建",
+        "E、体素化"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1020,
+      "type": "multi_choice",
+      "question": "机器视觉系统性能验证指标包括 ()",
+      "options": [
+        "A、重复精度",
+        "B、检测速度",
+        "C、误检率",
+        "D、漏检率",
+        "E、稳定性"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1021,
+      "type": "multi_choice",
+      "question": "下列属于工业镜头关键参数的是()",
+      "options": [
+        "A、焦距",
+        "B、光圈范围",
+        "C、工作距离",
+        "D、接口类型",
+        "E、分辨率"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1022,
+      "type": "multi_choice",
+      "question": "机器视觉中的图像分割方法包括()",
+      "options": [
+        "A、阈值分割",
+        "B、边缘检测",
+        "C、区域生长",
+        "D、聚类分割",
+        "E、分水岭分割"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1023,
+      "type": "multi_choice",
+      "question": "下列影响景深的因素包括() ---------------",
+      "options": [
+        "A、光圈大小",
+        "B、焦距",
+        "C、工作距离",
+        "D、传感器尺寸",
+        "E、像面照度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1024,
+      "type": "multi_choice",
+      "question": "机器视觉系统抗干扰措施包括(",
+      "options": [
+        "A、电磁屏蔽",
+        "B、接地保护",
+        "C、光学滤波",
+        "D、软件滤波",
+        "E、机械隔离"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1025,
+      "type": "multi_choice",
+      "question": "下列属于机器视觉开发工具的是()",
+      "options": [
+        "A、Halcon",
+        "B、OpenCV",
+        "C、VisionPro",
+        "D、LabVIEW",
+        "E、MATLAB"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1026,
+      "type": "multi_choice",
+      "question": "深度学习在机器视觉中的应用包括()",
+      "options": [
+        "A、缺陷分类",
+        "B、目标检测",
+        "C、图像分割",
+        "D、三维重建",
+        "E、光学字符识别"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1027,
+      "type": "multi_choice",
+      "question": "机器视觉中的相机触发方式包括()",
+      "options": [
+        "A、软触发",
+        "B、硬触发",
+        "C、编码器触发",
+        "D、自由运行",
+        "E、定时触发"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1028,
+      "type": "multi_choice",
+      "question": "下列属于图像质量评价指标的是()",
+      "options": [
+        "A、PSNR",
+        "B、SSIM",
+        "C、MSE",
+        "D、MTF",
+        "E、动态范围"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1029,
+      "type": "multi_choice",
+      "question": "机器视觉系统选型需考虑的因素包括",
+      "options": [
+        "A、检测精度要求",
+        "B、检测速度要求",
+        "C、环境条件",
+        "D、成本预算",
+        "E、可维护性"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1030,
+      "type": "multi_choice",
+      "question": "下列属于远心镜头特点的是()",
+      "options": [
+        "A、无透视畸变",
+        "B、大景深",
+        "C、放大率恒定",
+        "D、价格低廉",
+        "E、体积小巧"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 1031,
+      "type": "multi_choice",
+      "question": "机器视觉中的光源照明方式包括()",
+      "options": [
+        "A、明场照明",
+        "B、暗场照明",
+        "C、背光照明",
+        "D、同轴照明",
+        "E、低角度照明"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1032,
+      "type": "multi_choice",
+      "question": "下列属于工业相机传感器类型的是()",
+      "options": [
+        "A、CCD",
+        "B、CMOS",
+        "C、InGaAs",
+        "D、EMCCD",
+        "E、sCMOS"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1033,
+      "type": "multi_choice",
+      "question": "机器视觉系统维护内容包括()",
+      "options": [
+        "A、镜头清洁",
+        "B、光源亮度校准",
+        "C、系统标定复检",
+        "D、软件更新",
+        "E、散热系统检查"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1034,
+      "type": "multi_choice",
+      "question": "下列属于三维重建算法的是 ()",
+      "options": [
+        "A、运动恢复结构(SfM)",
+        "B、多视角立体匹配(MVS)",
+        "C、结构光解码",
+        "D、激光三角法",
+        "E、双目视差计算"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1035,
+      "type": "multi_choice",
+      "question": "影响图像采集质量的因素包括()",
+      "options": [
+        "A、曝光时间",
+        "B、增益值",
+        "C、白平衡",
+        "D、触发时机",
+        "E、数据传输带宽"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1036,
+      "type": "multi_choice",
+      "question": "机器视觉中的亚像素技术应用包括()",
+      "options": [
+        "A、边缘定位",
+        "B、特征点检测",
+        "C、尺寸测量",
+        "D、图像配准",
+        "E、目标跟踪"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1037,
+      "type": "multi_choice",
+      "question": "下列属于机器视觉硬件接口的是()",
+      "options": [
+        "A、GPIO",
+        "B、RS232",
+        "C、Ethernet",
+        "D、USB",
+        "E、CAN"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1038,
+      "type": "multi_choice",
+      "question": "机器视觉系统优化方向包括()",
+      "options": [
+        "A、算法加速",
+        "B、硬件升级",
+        "C、照明优化",
+        "D、光学系统改进",
+        "E、通信协议优化"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1039,
+      "type": "multi_choice",
+      "question": "下列属于特征提取算法的是()",
+      "options": [
+        "A、Harris角点检测",
+        "B、FAST特征检测",
+        "C、SIFT",
+        "D、SURF",
+        "E、ORB"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1040,
+      "type": "multi_choice",
+      "question": "机器视觉中的运动模糊补偿方法包括 图像去模糊算法",
+      "options": [
+        "A、全局快门",
+        "B、短曝光时间",
+        "C、",
+        "D、编码曝光",
+        "E、运动预测"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1041,
+      "type": "multi_choice",
+      "question": "下列属于机器视觉行业标准的是()",
+      "options": [
+        "A、GenICam",
+        "B、GigE Vision",
+        "C、USB3 Vision",
+        "D、Camera Link",
+        "E、EMVA1288"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1042,
+      "type": "multi_choice",
+      "question": "深度学习模型部署方式包括()",
+      "options": [
+        "A、本地推理",
+        "B、边缘计算",
+        "C、云端部署",
+        "D、混合部署",
+        "E、分布式推理"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1043,
+      "type": "multi_choice",
+      "question": "机器视觉中的光学畸变类型包括 ()",
+      "options": [
+        "A、桶形畸变",
+        "B、枕形畸变",
+        "C、切向畸变",
+        "D、径向畸变",
+        "E、薄棱镜畸变"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1044,
+      "type": "multi_choice",
+      "question": "下列影响机器视觉检测精度的光学因素包括(",
+      "options": [
+        "E、透射率",
+        "B、光源均匀性",
+        "C、像差",
+        "D、景深",
+        "E、透射率"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1045,
+      "type": "multi_choice",
+      "question": "机器视觉系统标定工具包括( 线阵标定板",
+      "options": [
+        "A、棋盘格标定板",
+        "B、圆形标定板",
+        "C、",
+        "D、三维标定块",
+        "E、平面镜"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1046,
+      "type": "multi_choice",
+      "question": "下列属于机器视觉中图像变换的是()",
+      "options": [
+        "A、仿射变换",
+        "B、透视变换",
+        "C、极坐标变换",
+        "D、傅里叶变换",
+        "E、小波变换"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1047,
+      "type": "multi_choice",
+      "question": "机器视觉中的实时操作系统包括()",
+      "options": [
+        "A、VxWorks",
+        "B、QNX",
+        "C、RT-Linux",
+        "D、Windows RT",
+        "E、FreeRTOS"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 1048,
+      "type": "multi_choice",
+      "question": "下列属于工业相机快门类型的是()",
+      "options": [
+        "A、全局快门",
+        "B、卷帘快门",
+        "C、电子快门",
+        "D、机械快门",
+        "E、同步快门"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1049,
+      "type": "multi_choice",
+      "question": "机器视觉中的颜色管理技术包括()",
+      "options": [
+        "A、色彩校正",
+        "B、白平衡",
+        "C、Gamma校正",
+        "D、颜色空间转换",
+        "E、直方图匹配"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1050,
+      "type": "multi_choice",
+      "question": "深度学习在机器视觉中的应用包括()",
+      "options": [
+        "A、缺陷分类",
+        "B、目标检测",
+        "C、图像分割",
+        "D、三维重建",
+        "E、光学字符识别"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1051,
+      "type": "multi_choice",
+      "question": "机器视觉系统的基本组成部分包括()",
+      "options": [
+        "A、光源",
+        "B、镜头",
+        "C、相机",
+        "D、图像采集卡",
+        "E、图像处理软件"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1052,
+      "type": "multi_choice",
+      "question": "图像预处理技术包括",
+      "options": [
+        "A、滤波",
+        "B、边缘检测",
+        "C、阈值分割",
+        "D、特征提取",
+        "E、图像增强"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": 1053,
+      "type": "multi_choice",
+      "question": "常用的边缘检测算子有()",
+      "options": [
+        "A、Sobel算子",
+        "B、Prewitt算子",
+        "C、Roberts算子",
+        "D、Canny算子",
+        "E、Laplacian算子"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1054,
+      "type": "multi_choice",
+      "question": "机器视觉中，光源的选择需要考虑的因素有(",
+      "options": [
+        "A、物体的颜色",
+        "B、物体的材质",
+        "C、检测的特征",
+        "D、环境光照",
+        "E、相机的类型"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1055,
+      "type": "multi_choice",
+      "question": "立体视觉系统的关键技术包括() 视差计算",
+      "options": [
+        "A、相机标定",
+        "B、立体匹配",
+        "C、",
+        "D、三维重建",
+        "E、图像增强"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1056,
+      "type": "multi_choice",
+      "question": "以下属于图像的全局特征的有()",
+      "options": [
+        "A、灰度直方图",
+        "B、颜色直方图",
+        "C、纹理特征",
+        "D、SIFT特征",
+        "E、形状特征"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 1057,
+      "type": "multi_choice",
+      "question": "模板匹配的类型包括",
+      "options": [
+        "A、刚性模板匹配",
+        "B、柔性模板匹配",
+        "C、多尺度模板匹配",
+        "D、旋转不变模板匹配",
+        "E、快速模板匹配"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1058,
+      "type": "multi_choice",
+      "question": "摄像机标定的目的是确定()",
+      "options": [
+        "A、内参数",
+        "B、外参数",
+        "C、畸变系数",
+        "D、图像分辨率",
+        "E、相机帧率"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 1059,
+      "type": "multi_choice",
+      "question": "常用的图像滤波方法有(",
+      "options": [
+        "A、均值滤波",
+        "B、中值滤波",
+        "C、高斯滤波",
+        "D、拉普拉斯滤波",
+        "E、双边滤波"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1060,
+      "type": "multi_choice",
+      "question": "机器视觉中，常用于测量的技术有()",
+      "options": [
+        "A、立体视觉",
+        "B、单目视觉测量",
+        "C、激光三角测量",
+        "D、模板匹配",
+        "E、blob分析"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 1061,
+      "type": "multi_choice",
+      "question": "以下属于图像压缩方法的有()",
+      "options": [
+        "A、有损压缩",
+        "B、无损压缩",
+        "C、哈夫曼编码",
+        "D、LZW压缩",
+        "E、JPEG压缩"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1062,
+      "type": "multi_choice",
+      "question": "边缘检测的步骤包括",
+      "options": [
+        "A、图像平滑",
+        "B、计算梯度",
+        "C、非极大值抑制",
+        "A、灰度变换",
+        "B、直方图均衡化",
+        "C、锐化处理",
+        "D、平滑处理",
+        "E、对比度拉伸"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": 1063,
+      "type": "multi_choice",
+      "question": "阈值分割的方法有",
+      "options": [
+        "A、全局阈值法",
+        "B、局部阈值法",
+        "C、自适应阈值法",
+        "D、迭代阈值法",
+        "E、OTSU算法"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1064,
+      "type": "multi_choice",
+      "question": "机器视觉的应用领域包括()",
+      "options": [
+        "A、工业检测",
+        "B、机器人视觉",
+        "C、医学影像",
+        "D、安防监控",
+        "E、智能交通"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1065,
+      "type": "multi_choice",
+      "question": "常用的图像格式有()",
+      "options": [
+        "A、BMP",
+        "B、JPG",
+        "C、PNG",
+        "D、TIFF",
+        "E、GIF"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1066,
+      "type": "multi_choice",
+      "question": "边缘检测算子的性能评价指标有()",
+      "options": [
+        "A、检测率",
+        "B、误检率",
+        "C、定位精度",
+        "D、抗噪声能力",
+        "E、计算速度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1067,
+      "type": "multi_choice",
+      "question": "机器视觉中，用于缺陷检测的技术有()",
+      "options": [
+        "A、模板匹配",
+        "B、blob分析",
+        "C、边缘检测",
+        "D、灰度对比",
+        "E、颜色分析"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1068,
+      "type": "multi_choice",
+      "question": "立体视觉中，影响视差计算精度的因素有()",
+      "options": [
+        "A、相机标定精度",
+        "B、基线长度",
+        "C、图像分辨率",
+        "D、光照条件",
+        "E、立体匹配精度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1069,
+      "type": "multi_choice",
+      "question": "以下属于图像的局部特征的有()",
+      "options": [
+        "A、Harris角点",
+        "B、SIFT特征",
+        "C、SURF特征",
+        "D、ORB特征",
+        "E、边缘点"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1070,
+      "type": "multi_choice",
+      "question": "机器视觉中，光源的布置方式有()",
+      "options": [
+        "A、背光照明",
+        "B、同轴照明",
+        "C、环形照明",
+        "D、点光源照明",
+        "E、线光源照明"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1071,
+      "type": "multi_choice",
+      "question": "图像的数字化过程包括",
+      "options": [
+        "A、采样",
+        "B、量化",
+        "C、编码",
+        "D、压缩",
+        "E、传输"
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 1072,
+      "type": "multi_choice",
+      "question": "摄像机的畸变类型主要有()",
+      "options": [
+        "A、径向畸变",
+        "B、切向畸变",
+        "C、薄棱镜畸变",
+        "D、桶形畸变",
+        "E、枕形畸变"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1073,
+      "type": "multi_choice",
+      "question": "以下属于模板匹配的应用场景的有() 缺陷检测",
+      "options": [
+        "A、物体识别",
+        "B、物体定位",
+        "C、",
+        "D、尺寸测量",
+        "E、条码识别"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 1074,
+      "type": "multi_choice",
+      "question": "图像滤波的目的是()",
+      "options": [
+        "A、去除噪声",
+        "B、平滑图像",
+        "C、增强边缘",
+        "D、减少数据量",
+        "E、改善图像质量"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "E"
+      ]
+    },
+    {
+      "id": 1075,
+      "type": "multi_choice",
+      "question": "机器视觉中，常用的测量算法有()",
+      "options": [
+        "A、亚像素定位算法",
+        "B、最小二乘法拟合",
+        "C、Hough变换",
+        "D、距离变换",
+        "E、区域生长"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1076,
+      "type": "multi_choice",
+      "question": "以下属于颜色空间的有()",
+      "options": [
+        "A、RGB",
+        "B、HSV",
+        "C、HSL",
+        "D、CMYK",
+        "E、YCrCb"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1077,
+      "type": "multi_choice",
+      "question": "边缘检测的应用场景有",
+      "options": [
+        "A、目标识别",
+        "B、图像分割",
+        "C、尺寸测量",
+        "D、缺陷检测",
+        "E、运动检测"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1078,
+      "type": "multi_choice",
+      "question": "机器视觉系统中，图像采集卡的作用有()",
+      "options": [
+        "A、将模拟信号转换为数字信号",
+        "B、传输图像数据",
+        "C、控制相机参数",
+        "D、存储图像数据",
+        "E、处理图像数据"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 1079,
+      "type": "multi_choice",
+      "question": "以下属于立体视觉的优点的有",
+      "options": [
+        "A、可获取物体三维信息",
+        "B、测量精度较高",
+        "C、适用于动态场景",
+        "D、设备成本较低",
+        "E、对环境光照不敏感"
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 1080,
+      "type": "multi_choice",
+      "question": "特征提取的目的是()",
+      "options": [
+        "A、减少数据量",
+        "B、突出关键信息",
+        "C、便于后续处理",
+        "D、提高计算速度",
+        "E、增强图像对比度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1081,
+      "type": "multi_choice",
+      "question": "机器视觉中，常用于物体计数的技术有()",
+      "options": [
+        "A、blob分析",
+        "B、模板匹配",
+        "C、边缘检测",
+        "D、阈值分割",
+        "E、形态学处理"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1082,
+      "type": "multi_choice",
+      "question": "光源的性能参数包括(",
+      "options": [
+        "A、亮度",
+        "B、波长",
+        "C、寿命",
+        "D、稳定性",
+        "E、功耗"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1083,
+      "type": "multi_choice",
+      "question": "以下属于图像分割的应用场景的有()",
+      "options": [
+        "A、医学影像分析",
+        "B、工业检测",
+        "C、遥感图像分析",
+        "D、人脸识别",
+        "E、目标跟踪"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1084,
+      "type": "multi_choice",
+      "question": "机器视觉中，相机的选择需要考虑的因素有",
+      "options": [
+        "A、分辨率",
+        "B、帧率",
+        "C、感光芯片类型",
+        "D、接口类型",
+        "E、曝光时间"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1085,
+      "type": "multi_choice",
+      "question": "以下属于传统的立体匹配算法的有()",
+      "options": [
+        "A、SSD算法",
+        "B、NCC算法",
+        "C、SAD算法",
+        "D、GC算法",
+        "E、BM算法"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1086,
+      "type": "multi_choice",
+      "question": "图像增强的目的是()",
+      "options": [
+        "A、提高图像的可辨识度",
+        "B、突出有用信息",
+        "C、抑制无用信息",
+        "D、改善图像的视觉效果",
+        "E、去除图像中的噪声"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1087,
+      "type": "multi_choice",
+      "question": "机器视觉中，模板匹配的关键参数有",
+      "options": [
+        "A、匹配阈值",
+        "B、搜索范围",
+        "C、旋转角度范围",
+        "D、尺度范围",
+        "E、匹配得分"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1088,
+      "type": "multi_choice",
+      "question": "摄像机标定的方法有()",
+      "options": [
+        "A、基于标定板的标定",
+        "B、自标定",
+        "C、基于运动的标定",
+        "D、单应性矩阵标定",
+        "E、线性标定"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1089,
+      "type": "multi_choice",
+      "question": "以下属于滤波方法的作用的有()",
+      "options": [
+        "A、去除噪声",
+        "B、平滑图像",
+        "C、增强边缘",
+        "D、模糊图像",
+        "E、提取特征"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1090,
+      "type": "multi_choice",
+      "question": "机器视觉中，用于定位的技术有()",
+      "options": [
+        "A、模板匹配",
+        "B、特征点匹配",
+        "C、霍夫变换",
+        "D、边缘检测",
+        "E、blob分析"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1091,
+      "type": "multi_choice",
+      "question": "立体视觉系统的两个相机需要满足的条件有",
+      "options": [
+        "A、内参数相同",
+        "B、光轴平行",
+        "C、基线固定",
+        "D、同步曝光",
+        "E、分辨率相同"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1092,
+      "type": "multi_choice",
+      "question": "以下属于图像的颜色特征的有()",
+      "options": [
+        "A、颜色直方图",
+        "B、颜色矩",
+        "C、颜色集",
+        "D、颜色相关图",
+        "E、主色调"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1093,
+      "type": "multi_choice",
+      "question": "边缘检测中，Canny 算子的优点有()",
+      "options": [
+        "A、抗噪声能力强",
+        "B、边缘定位准确",
+        "C、检测到的边缘连续",
+        "D、计算速度快",
+        "E、对光照变化不敏感"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 1094,
+      "type": "multi_choice",
+      "question": "机器视觉的发展趋势包括",
+      "options": [
+        "A、深度学习与机器视觉结合",
+        "B、3D视觉技术的普及",
+        "C、实时性要求提高",
+        "D、小型化、智能化",
+        "E、多传感器融合"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": 1095,
+      "type": "multi_choice",
+      "question": "机器视觉系统可以应用于以下哪些领域?",
+      "options": [
+        "A、制造业",
+        "B、医疗行业",
+        "C、农业",
+        "D、交通监控"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1096,
+      "type": "multi_choice",
+      "question": "以下哪些是机器视觉中常用的光源类型?",
+      "options": [
+        "A、LED光源",
+        "B、卤素灯",
+        "C、氙灯",
+        "D、紫外灯"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1097,
+      "type": "multi_choice",
+      "question": "机器视觉中，图像处理可能包括哪些步骤?",
+      "options": [
+        "A、滤波",
+        "B、边缘增强",
+        "C、特征提取",
+        "D、图像分割"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1098,
+      "type": "multi_choice",
+      "question": "以下哪些因素会影响机器视觉系统的性能?",
+      "options": [
+        "A、相机分辨率",
+        "B、光源稳定性",
+        "C、算法复杂度",
+        "D、环境温度"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1099,
+      "type": "multi_choice",
+      "question": "机器视觉中，以下哪些是图像采集卡的功能?",
+      "options": [
+        "A、信号转换",
+        "B、图像压缩",
+        "C、数据传输",
+        "D、图像存储"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 1100,
+      "type": "multi_choice",
+      "question": "机器视觉中，以下哪些是图像增强的目的?",
+      "options": [
+        "A、提高图像质量",
+        "B、减少噪声",
+        "C、突出特征",
+        "D、改善视觉效果"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1101,
+      "type": "multi_choice",
+      "question": "以下哪些是机器视觉中常用的图像特征?",
+      "options": [
+        "A、颜色",
+        "B、纹理",
+        "C、形状",
+        "D、大小"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1102,
+      "type": "multi_choice",
+      "question": "机器视觉中，以下哪些是图像分割的方法?",
+      "options": [
+        "A、阈值分割",
+        "B、边缘检测",
+        "C、区域生长",
+        "D、聚类算法"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1103,
+      "type": "multi_choice",
+      "question": "机器视觉中，以下哪些是图像匹配的算法?",
+      "options": [
+        "A、模板匹配",
+        "B、特征匹配",
+        "C、相位相关",
+        "D、傅里叶变换匹配"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1104,
+      "type": "multi_choice",
+      "question": "以下哪些是机器视觉中常用的图像滤波器?",
+      "options": [
+        "A、高斯滤波器",
+        "B、中值滤波器",
+        "C、拉普拉斯滤波器",
+        "D、双边滤波器"
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ],
+  "true_false": [
+    {
+      "id": 2001,
+      "type": "true_false",
+      "question": "机器视觉系统可以完全替代人工视觉。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2002,
+      "type": "true_false",
+      "question": "机器视觉系统对环境光线变化不敏感。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2003,
+      "type": "true_false",
+      "question": "机器视觉中的图像处理算法可以提高图像的识别率。 A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2004,
+      "type": "true_false",
+      "question": "机器视觉系统不能用于动态物体的检测。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2005,
+      "type": "true_false",
+      "question": "机器视觉系统可以用于测量物体的三维形状。 A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2006,
+      "type": "true_false",
+      "question": "机器视觉系统只能处理二维图像。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2007,
+      "type": "true_false",
+      "question": "机器视觉系统可以用于质量控制。 A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2008,
+      "type": "true_false",
+      "question": "机器视觉系统不能识别透明物体。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2009,
+      "type": "true_false",
+      "question": "机器视觉系统可以用于机器人导航。 A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2010,
+      "type": "true_false",
+      "question": "机器视觉系统不能识别颜色差异。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2011,
+      "type": "true_false",
+      "question": "机器视觉系统中，相机的主要功能是将光学图像转换为电信号。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2012,
+      "type": "true_false",
+      "question": "图像的分辨率越高，图像的清晰度一定越高。( A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2013,
+      "type": "true_false",
+      "question": "中值滤波对椒盐噪声的抑制效果优于均值滤波。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2014,
+      "type": "true_false",
+      "question": "摄像机标定的主要目的是消除图像中的噪声。( A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2015,
+      "type": "true_false",
+      "question": "立体视觉必须使用两个相机才能实现。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2016,
+      "type": "true_false",
+      "question": "阈值分割中，全局阈值法适用于光照不均匀的图像。( A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2017,
+      "type": "true_false",
+      "question": "LED 光源属于冷光源，且寿命较长。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2018,
+      "type": "true_false",
+      "question": "Canny 算子是一种抗噪声能力较强的边缘检测算子。 A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2019,
+      "type": "true_false",
+      "question": "模板匹配中，旋转不变模板匹配可处理目标的任意角度旋转。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2020,
+      "type": "true_false",
+      "question": "图像的灰度直方图反映了图像中像素的位置分布。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2021,
+      "type": "true_false",
+      "question": "镜头的焦距越长，成像范围越大。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2022,
+      "type": "true_false",
+      "question": "有损压缩会丢失部分图像信息，且无法恢复。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2023,
+      "type": "true_false",
+      "question": "霍夫变换可用于检测图像中的直线和圆。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2024,
+      "type": "true_false",
+      "question": "机器视觉中，背光照明主要用于突出物体的表面缺陷。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2025,
+      "type": "true_false",
+      "question": "相机的帧率越高，越适合拍摄快速运动的物体。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2026,
+      "type": "true_false",
+      "question": "拉普拉斯滤波可用于增强图像的边缘信息。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2027,
+      "type": "true_false",
+      "question": "摄像机的径向畸变包括桶形畸变和枕形畸变。( A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2028,
+      "type": "true_false",
+      "question": "模板匹配中，匹配得分越高，模板与目标的相似度越低。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2029,
+      "type": "true_false",
+      "question": "图像增强的目的是去除图像中的噪声。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2030,
+      "type": "true_false",
+      "question": "立体视觉中，视差越大，物体离相机越近。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2031,
+      "type": "true_false",
+      "question": "均值滤波属于非线性滤波。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2032,
+      "type": "true_false",
+      "question": "机器视觉系统中，图像采集卡的作用是将模拟信号转换为数字信号。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2033,
+      "type": "true_false",
+      "question": "颜色直方图是图像的全局特征，不包含空间位置信息。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2034,
+      "type": "true_false",
+      "question": "边缘检测是图像分割的一种常用方法。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2035,
+      "type": "true_false",
+      "question": "相机的曝光时间越长，图像越亮。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2036,
+      "type": "true_false",
+      "question": "SIFT特征具有旋转和尺度不变性。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2037,
+      "type": "true_false",
+      "question": "光源的波长越长，穿透能力越强。( A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2038,
+      "type": "true_false",
+      "question": "阈值分割中，阈值选择越高，分割出的目标区域越大。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2039,
+      "type": "true_false",
+      "question": "机器视觉中，三维重建是立体视觉的最终目的之一。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2040,
+      "type": "true_false",
+      "question": "高斯滤波是一种非线性滤波方法。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2041,
+      "type": "true_false",
+      "question": "相机的内参数包括焦距和主点坐标。 () A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2042,
+      "type": "true_false",
+      "question": "模板匹配可用于物体的计数。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2043,
+      "type": "true_false",
+      "question": "图像的量化等级越高，图像的色彩越丰富。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2044,
+      "type": "true_false",
+      "question": "拉普拉斯算子对噪声非常敏感。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2045,
+      "type": "true_false",
+      "question": "立体视觉的基线长度越长，测量精度越低。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2046,
+      "type": "true_false",
+      "question": "中值滤波会使图像边缘变得模糊。 A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2047,
+      "type": "true_false",
+      "question": "机器视觉系统中，图像处理软件的核心功能是图像采集。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2048,
+      "type": "true_false",
+      "question": "全局快门相机拍摄快速运动物体时，不易出现果冻效应。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2049,
+      "type": "true_false",
+      "question": "边缘检测算子的检测率越高，误检率一定越低。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2050,
+      "type": "true_false",
+      "question": "摄像机的外参数用于描述相机在三维世界中的位置和姿态。( A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2051,
+      "type": "true_false",
+      "question": "有损压缩的压缩比通常低于无损压缩。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2052,
+      "type": "true_false",
+      "question": "形态学运算中的腐蚀操作可用于去除图像中的小噪声点。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2053,
+      "type": "true_false",
+      "question": "立体匹配是立体视觉中最关键且最困难的步骤。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2054,
+      "type": "true_false",
+      "question": "图像的空间分辨率是指图像中像素的灰度级数量。() A、对 2025年宁波技能竞赛工业视觉系统运维项目 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2055,
+      "type": "true_false",
+      "question": "同轴光源可有效减少物体表面的反光。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2056,
+      "type": "true_false",
+      "question": "模板匹配对目标的尺度变化不敏感。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2057,
+      "type": "true_false",
+      "question": "直方图均衡化可提高图像的对比度。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2058,
+      "type": "true_false",
+      "question": "相机的帧率与曝光时间成反比。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2059,
+      "type": "true_false",
+      "question": "机器视觉中，blob分析可用于检测图像中的连通区域。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2060,
+      "type": "true_false",
+      "question": "径向畸变会导致直线成像为曲线。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2061,
+      "type": "true_false",
+      "question": "均值滤波会使图像整体变得模糊。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2062,
+      "type": "true_false",
+      "question": "摄像机标定必须使用专用的标定板。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2063,
+      "type": "true_false",
+      "question": "图像的压缩比越高，图像质量一定越差。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2064,
+      "type": "true_false",
+      "question": "线阵相机适用于拍摄大面积的平面物体。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2065,
+      "type": "true_false",
+      "question": "边缘检测后的边缘通常是单像素宽度的。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2066,
+      "type": "true_false",
+      "question": "立体视觉中，视差是左右图像中对应点的坐标差。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2067,
+      "type": "true_false",
+      "question": "LED光源的亮度不可调节。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2068,
+      "type": "true_false",
+      "question": "模板匹配的计算速度与模板大小成正比。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2069,
+      "type": "true_false",
+      "question": "图像的灰度级是指图像中像素的数量。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2070,
+      "type": "true_false",
+      "question": "霍夫变换对噪声和遮挡具有较强的鲁棒性。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2071,
+      "type": "true_false",
+      "question": "相机的外参数不随相机位置变化而变化。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2072,
+      "type": "true_false",
+      "question": "形态学运算中的膨胀操作可用于填充目标区域的小孔。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2073,
+      "type": "true_false",
+      "question": "图像增强会改变图像的原始信息。( A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2074,
+      "type": "true_false",
+      "question": "单目视觉无法获取物体的三维信息。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2075,
+      "type": "true_false",
+      "question": "高斯滤波的标准差越大，图像平滑效果越强。( A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2076,
+      "type": "true_false",
+      "question": "机器视觉系统的检测速度主要取决于相机的帧率。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2077,
+      "type": "true_false",
+      "question": "阈值分割是一种基于区域的图像分割方法。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2078,
+      "type": "true_false",
+      "question": "摄像机的畸变可以完全消除。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2079,
+      "type": "true_false",
+      "question": "多尺度模板匹配可处理目标的旋转变化。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2080,
+      "type": "true_false",
+      "question": "图像的色彩深度越高，图像占用的存储空间越大。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2081,
+      "type": "true_false",
+      "question": "边缘检测算子的梯度幅值越大，边缘越明显。( A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2082,
+      "type": "true_false",
+      "question": "背光照明时，物体越厚，成像越暗。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2083,
+      "type": "true_false",
+      "question": "相机的全局快门比滚动快门成本低。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2084,
+      "type": "true_false",
+      "question": "模板匹配中，搜索范围越大，匹配速度越快。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2085,
+      "type": "true_false",
+      "question": "直方图均衡化会使图像的灰度直方图变得更集中。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2086,
+      "type": "true_false",
+      "question": "立体视觉的视差图是二维图像，每个像素值表示视差大小。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2087,
+      "type": "true_false",
+      "question": "中值滤波对高斯噪声的抑制效果优于均值滤波。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2088,
+      "type": "true_false",
+      "question": "机器视觉中，特征提取是目标识别的前提。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2089,
+      "type": "true_false",
+      "question": "图像的采样频率越高，图像的空间分辨率越低。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2090,
+      "type": "true_false",
+      "question": "摄像机标定的内参数在相机使用过程中不会发生变化。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2091,
+      "type": "true_false",
+      "question": "形态学开运算可用于平滑目标边缘，去除小凸起。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2092,
+      "type": "true_false",
+      "question": "所有机器视觉系统都必须使用图像采集卡。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2093,
+      "type": "true_false",
+      "question": "颜色直方图具有旋转不变性。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2094,
+      "type": "true_false",
+      "question": "立体视觉的基线长度越短，测量范围越大。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2095,
+      "type": "true_false",
+      "question": "拉普拉斯滤波后的图像可能出现负值像素。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2096,
+      "type": "true_false",
+      "question": "相机的曝光时间与帧率无关。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2097,
+      "type": "true_false",
+      "question": "模板匹配对光照变化非常敏感。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2098,
+      "type": "true_false",
+      "question": "图像的无损压缩不会降低图像质量。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2099,
+      "type": "true_false",
+      "question": "边缘检测是图像分析的第一步。() A、对 2025年宁波技能竞赛工业视觉系统运维项目 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2100,
+      "type": "true_false",
+      "question": "摄像机的外参数会随相机位置变化而变化。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2101,
+      "type": "true_false",
+      "question": "均值滤波和中值滤波都属于线性滤波。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2102,
+      "type": "true_false",
+      "question": "机器视觉可用于检测物体的内部缺陷。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2103,
+      "type": "true_false",
+      "question": "多阈值分割可将图像分为多个区域。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2104,
+      "type": "true_false",
+      "question": "SIFT特征的提取速度比ORB特征快。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2105,
+      "type": "true_false",
+      "question": "光源的稳定性对机器视觉检测精度影响不大。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2106,
+      "type": "true_false",
+      "question": "图像的量化误差会导致图像出现伪轮廓。( A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2107,
+      "type": "true_false",
+      "question": "立体匹配中的左右一致性检查可去除错误匹配点。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2108,
+      "type": "true_false",
+      "question": "相机的分辨率越高，图像文件越大。() A、对 B、错",
+      "correct_answer": "B"
+    },
+    {
+      "id": 2109,
+      "type": "true_false",
+      "question": "形态学闭运算可用于连接目标间的小孔和缝隙。() A、对 B、错",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2110,
+      "type": "true_false",
+      "question": "机器视觉系统的精度主要取决于镜头的焦距。() A、对 B、错",
+      "correct_answer": "B"
+    }
+  ]
+}
